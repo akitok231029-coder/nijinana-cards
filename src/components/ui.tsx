@@ -1,6 +1,7 @@
 import React from "react";
 import { Pressable, StyleSheet, Text, View, type ViewStyle } from "react-native";
-import { COL7, COLOR, DISPLAY, type Palette } from "../theme";
+import { LinearGradient } from "expo-linear-gradient";
+import { COL7, COLOR, DISPLAY, RAINBOW, type Palette } from "../theme";
 import type { Col } from "../types";
 
 export function ColorBar({ cols, height = 12, style }: { cols: Col[]; height?: number; style?: ViewStyle }) {
@@ -9,7 +10,7 @@ export function ColorBar({ cols, height = 12, style }: { cols: Col[]; height?: n
       {COL7.map((c) => {
         const on = cols.includes(c);
         return (
-          <View key={c} style={{ flex: 1, borderRadius: 2, backgroundColor: on ? COLOR[c] : "rgba(127,127,140,0.18)", alignItems: "center", justifyContent: "center" }}>
+          <View key={c} style={{ flex: 1, borderRadius: 3, backgroundColor: on ? COLOR[c] : "#edf0f8", alignItems: "center", justifyContent: "center" }}>
             {on && height >= 12 ? <Text style={{ color: "#fff", fontSize: height * 0.62, fontWeight: "700" }}>{c}</Text> : null}
           </View>
         );
@@ -18,10 +19,14 @@ export function ColorBar({ cols, height = 12, style }: { cols: Col[]; height?: n
   );
 }
 
+export function RainbowBand({ height = 4 }: { height?: number }) {
+  return <LinearGradient colors={RAINBOW} start={{ x: 0, y: 0 }} end={{ x: 1, y: 0 }} style={{ height }} />;
+}
+
 export function Badge({ label, pal, strong }: { label: string; pal: Palette; strong?: boolean }) {
   return (
-    <View style={{ borderWidth: 1, borderColor: strong ? pal.fg : pal.line, borderRadius: 4, paddingHorizontal: 5 }}>
-      <Text style={{ fontSize: 10, fontWeight: "700", color: pal.fg }}>{label}</Text>
+    <View style={{ borderWidth: 1, borderColor: strong ? pal.accent : pal.line, backgroundColor: strong ? pal.accentSoft : "transparent", borderRadius: 4, paddingHorizontal: 5 }}>
+      <Text style={{ fontSize: 10, fontWeight: "700", color: strong ? pal.accent : pal.fg }}>{label}</Text>
     </View>
   );
 }
@@ -35,30 +40,53 @@ export function Code({ label, pal }: { label: string; pal: Palette }) {
 }
 
 export function Chip({ label, on, onPress, pal, color, dot }: { label: string; on: boolean; onPress: () => void; pal: Palette; color?: string; dot?: string }) {
-  const fg = color ? (on ? "#fff" : color) : on ? pal.bg : pal.fg;
-  const bg = color ? (on ? color : pal.surface) : on ? pal.fg : pal.surface;
+  const tint = color ?? pal.accent;
   return (
     <Pressable
       onPress={onPress}
       accessibilityRole="button"
       accessibilityState={{ selected: on }}
-      style={{ minHeight: 38, minWidth: color ? 46 : undefined, paddingHorizontal: 13, borderRadius: 999, borderWidth: 1, borderColor: color ?? (on ? pal.fg : pal.line), backgroundColor: bg, flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 6 }}
+      style={{ minHeight: 38, minWidth: color ? 46 : undefined, paddingHorizontal: 13, borderRadius: 999, borderWidth: 1.5, borderColor: on ? tint : color ?? pal.line, backgroundColor: on ? tint : pal.surface, flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 6 }}
     >
-      {dot ? <View style={{ width: 10, height: 10, borderRadius: 5, backgroundColor: dot }} /> : null}
-      <Text style={{ color: fg, fontSize: 14, fontWeight: color ? "700" : "400" }}>{label}</Text>
+      {dot ? <View style={{ width: 10, height: 10, borderRadius: 5, backgroundColor: on ? "#fff" : dot }} /> : null}
+      <Text style={{ color: on ? "#fff" : color ?? pal.fg, fontSize: 14, fontWeight: on || color ? "700" : "400" }}>{label}</Text>
     </Pressable>
   );
 }
 
-export function Btn({ label, onPress, pal, primary, style }: { label: string; onPress: () => void; pal: Palette; primary?: boolean; style?: ViewStyle }) {
+export function Btn({ label, onPress, pal, primary, danger, style, disabled }: { label: string; onPress: () => void; pal: Palette; primary?: boolean; danger?: boolean; style?: ViewStyle; disabled?: boolean }) {
+  const bg = primary ? pal.accent : pal.surface;
+  const border = primary ? pal.accent : danger ? pal.ng : pal.line;
+  const fg = primary ? "#fff" : danger ? pal.ng : pal.fg;
   return (
     <Pressable
       onPress={onPress}
+      disabled={disabled}
       accessibilityRole="button"
-      style={({ pressed }) => [{ minHeight: 46, paddingHorizontal: 16, borderRadius: 12, borderWidth: 1, borderColor: primary ? pal.fg : pal.line, backgroundColor: primary ? pal.fg : pal.bg, alignItems: "center", justifyContent: "center", opacity: pressed ? 0.7 : 1 }, style]}
+      style={({ pressed }) => [{ minHeight: 46, paddingHorizontal: 16, borderRadius: 12, borderWidth: 1.5, borderColor: border, backgroundColor: bg, alignItems: "center", justifyContent: "center", opacity: disabled ? 0.4 : pressed ? 0.75 : 1 }, style]}
     >
-      <Text style={{ color: primary ? pal.bg : pal.fg, fontWeight: "700", fontSize: 14 }}>{label}</Text>
+      <Text style={{ color: fg, fontWeight: "700", fontSize: 14 }}>{label}</Text>
     </Pressable>
+  );
+}
+
+export function Stepper({ value, onChange, pal, max = 99 }: { value: number; onChange: (n: number) => void; pal: Palette; max?: number }) {
+  const btn = (label: string, next: number, disabled: boolean) => (
+    <Pressable
+      onPress={() => onChange(next)}
+      disabled={disabled}
+      accessibilityLabel={label === "+" ? "1枚増やす" : "1枚減らす"}
+      style={({ pressed }) => ({ width: 38, height: 38, borderRadius: 19, backgroundColor: label === "+" ? pal.accent : pal.chip, alignItems: "center", justifyContent: "center", opacity: disabled ? 0.35 : pressed ? 0.7 : 1 })}
+    >
+      <Text style={{ color: label === "+" ? "#fff" : pal.fg, fontSize: 20, fontWeight: "700", lineHeight: 22 }}>{label}</Text>
+    </Pressable>
+  );
+  return (
+    <View style={{ flexDirection: "row", alignItems: "center", gap: 8 }}>
+      {btn("−", value - 1, value <= 0)}
+      <Text style={{ minWidth: 22, textAlign: "center", fontFamily: DISPLAY, fontSize: 17, color: value ? pal.fg : pal.muted }}>{value}</Text>
+      {btn("+", value + 1, value >= max)}
+    </View>
   );
 }
 

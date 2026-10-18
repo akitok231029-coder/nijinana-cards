@@ -6,9 +6,10 @@ import { productById } from "../data/static";
 import type { Card } from "../types";
 import { Badge, Code, ColorBar, s } from "./ui";
 
-export const isNew = (c: Card) => !!c.addedAt && Date.now() - Date.parse(c.addedAt) < 3 * 864e5;
+import { isNew } from "../util";
+export { isNew };
 
-function CardTileBase({ card: c, pal, onPress, width }: { card: Card; pal: Palette; onPress: (c: Card) => void; width: number }) {
+function CardTileBase({ card: c, pal, onPress, width, count }: { card: Card; pal: Palette; onPress: (c: Card) => void; width: number; count?: number }) {
   const attr = ATTRS[c.attr] ?? ATTRS.unk;
   const liver = c.type === "ライバー";
   return (
@@ -29,8 +30,8 @@ function CardTileBase({ card: c, pal, onPress, width }: { card: Card; pal: Palet
           </View>
         )}
         <View style={{ position: "absolute", top: 6, left: 6, flexDirection: "row", gap: 4 }}>
-          <View style={{ backgroundColor: "rgba(0,0,0,0.6)", borderRadius: 6, minWidth: 26, height: 26, alignItems: "center", justifyContent: "center", paddingHorizontal: 5 }}>
-            <Text style={{ color: "#fff", fontFamily: DISPLAY, fontSize: 14 }}>{c.lv ?? "–"}</Text>
+          <View style={{ backgroundColor: "rgba(255,255,255,0.92)", borderRadius: 8, minWidth: 28, height: 28, alignItems: "center", justifyContent: "center", paddingHorizontal: 6, borderWidth: 1.5, borderColor: attr.color }}>
+            <Text style={{ color: pal.fg, fontFamily: DISPLAY, fontSize: 14 }}>{c.lv ?? "–"}</Text>
           </View>
           {isNew(c) ? (
             <View style={{ backgroundColor: pal.accent, borderRadius: 6, paddingHorizontal: 6, justifyContent: "center" }}>
@@ -38,6 +39,11 @@ function CardTileBase({ card: c, pal, onPress, width }: { card: Card; pal: Palet
             </View>
           ) : null}
         </View>
+        {count ? (
+          <View style={{ position: "absolute", right: 6, bottom: 6, backgroundColor: pal.pink, borderRadius: 14, minWidth: 34, height: 28, alignItems: "center", justifyContent: "center", paddingHorizontal: 8, borderWidth: 2, borderColor: "#fff" }}>
+            <Text style={{ color: "#fff", fontFamily: DISPLAY, fontSize: 14 }}>×{count}</Text>
+          </View>
+        ) : null}
       </View>
       <View style={{ padding: 9, gap: 5 }}>
         <Text style={{ fontFamily: DISPLAY, fontSize: 15, lineHeight: 20, color: pal.fg }} numberOfLines={1}>{c.name}</Text>

@@ -1,51 +1,48 @@
-import { useColorScheme } from "react-native";
 import type { Attr, Col } from "./types";
 
+/** 明るい配色のみ（ダークモードなし）。白地に虹色のアクセント。 */
 const light = {
-  bg: "#f2f4f8",
+  bg: "#f5f7ff",
   surface: "#ffffff",
-  fg: "#1b2233",
-  muted: "#5d6782",
-  line: "#dce2ec",
-  accent: "#2f5bd8",
-  chip: "#e8edf7",
-  scrim: "rgba(12,16,28,0.5)",
-  unk: "#9aa3b8",
-};
-const dark: typeof light = {
-  bg: "#0f131d",
-  surface: "#181e2b",
-  fg: "#e7ebf5",
-  muted: "#9aa4bf",
-  line: "#283044",
-  accent: "#86a2ff",
-  chip: "#222a3c",
-  scrim: "rgba(0,0,0,0.6)",
-  unk: "#6c7590",
+  fg: "#2a3160",
+  muted: "#6e77a3",
+  line: "#e2e7f6",
+  accent: "#5a78ff",
+  accentSoft: "#eaeeff",
+  pink: "#ff6fa3",
+  chip: "#eef1fb",
+  scrim: "rgba(42,49,96,0.35)",
+  unk: "#aab2cc",
+  ok: "#16a36a",
+  warn: "#e08a00",
+  ng: "#e0365e",
 };
 export type Palette = typeof light;
 
 export function usePalette(): Palette {
-  return useColorScheme() === "dark" ? dark : light;
+  return light;
 }
 
 export const COL7: Col[] = ["R", "O", "Y", "G", "B", "I", "V"];
 export const COLOR: Record<Col, string> = {
-  R: "#e0245e",
-  O: "#ef7a2a",
-  Y: "#e2b006",
-  G: "#19a463",
-  B: "#1f9ad6",
-  I: "#3a50c4",
-  V: "#8a3fbf",
+  R: "#ff4d7d",
+  O: "#ff8a3d",
+  Y: "#f5bf1a",
+  G: "#2fc27a",
+  B: "#30aef0",
+  I: "#5068e8",
+  V: "#a160e6",
 };
+export const COL_NAME: Record<Col, string> = { R: "赤", O: "橙", Y: "黄", G: "緑", B: "青", I: "藍", V: "紫" };
+/** 虹のグラデーション（ヘッダーの帯など） */
+export const RAINBOW = COL7.map((c) => COLOR[c]) as [string, string, ...string[]];
 
 export const ATTRS: Record<Attr, { label: string; color: string }> = {
-  sol: { label: "太陽（ソル）", color: "#d9365e" },
-  luna: { label: "月（ルナ）", color: "#2c5cc5" },
-  comet: { label: "彗星（コメット）", color: "#1f9fb8" },
-  stella: { label: "星（ステラ）", color: "#d6a91e" },
-  unk: { label: "未確認", color: "#9aa3b8" },
+  sol: { label: "太陽（ソル）", color: "#ff5c8a" },
+  luna: { label: "月（ルナ）", color: "#4f7cf0" },
+  comet: { label: "彗星（コメット）", color: "#22b7cf" },
+  stella: { label: "星（ステラ）", color: "#f0b21a" },
+  unk: { label: "未確認", color: "#aab2cc" },
 };
 
 export const TYPE_EN: Record<string, string> = {

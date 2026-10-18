@@ -1,7 +1,8 @@
 import React, { useMemo, useState } from "react";
 import { FlatList, Linking, Pressable, ScrollView, Text, TextInput, View } from "react-native";
-import { COL7, COLOR, type Palette } from "./theme";
-import { OFFICIAL_SITE, PRODUCTS, RULES, X_ACCOUNT } from "./data/static";
+import { normalize, readingOf } from "./kana";
+import type { Palette } from "./theme";
+import { PRODUCTS } from "./data/static";
 import type { Card } from "./types";
 import { Btn, Code, Title, s } from "./components/ui";
 
@@ -19,7 +20,8 @@ export function LiversScreen({ cards, pal, onPickLiver }: { cards: Card[]; pal: 
     cards.forEach((c) => { const e = c.liver ? m.get(c.liver) : undefined; if (e) e.cards++; });
     return [...m.values()].sort((a, b) => b.cards - a.cards || b.prods.length - a.prods.length || a.name.localeCompare(b.name, "ja"));
   }, [cards]);
-  const list = all.filter((l) => !q.trim() || l.name.includes(q.trim()));
+  const nq = normalize(q);
+  const list = all.filter((l) => !nq || normalize(l.name).includes(nq) || normalize(readingOf(l.name)).includes(nq));
   return (
     <FlatList
       data={list}
@@ -28,7 +30,7 @@ export function LiversScreen({ cards, pal, onPickLiver }: { cards: Card[]; pal: 
       contentContainerStyle={{ ...pad, paddingBottom: 24, gap: 8 }}
       ListHeaderComponent={
         <View style={{ gap: 8, paddingTop: 12, paddingBottom: 4 }}>
-          <TextInput value={q} onChangeText={setQ} placeholder="ライバー名で検索" placeholderTextColor={pal.muted} style={{ fontSize: 16, paddingHorizontal: 14, paddingVertical: 10, borderWidth: 1, borderColor: pal.line, borderRadius: 12, backgroundColor: pal.surface, color: pal.fg }} />
+          <TextInput value={q} onChangeText={setQ} placeholder="ライバー名で検索（ひらがなOK）" placeholderTextColor={pal.muted} style={{ fontSize: 16, paddingHorizontal: 14, paddingVertical: 10, borderWidth: 1, borderColor: pal.line, borderRadius: 12, backgroundColor: pal.surface, color: pal.fg }} />
           <Text style={{ fontSize: 12, color: pal.muted }}>{list.length} 名 ／ 発表済み収録ライバー {all.length} 名</Text>
         </View>
       }
@@ -73,30 +75,6 @@ export function ProductsScreen({ cards, pal, onPickProduct }: { cards: Card[]; p
         <Title pal={pal}>スリーブ Vol.1</Title>
         <Text style={{ color: pal.fg, fontSize: 13 }}>2026年12月26日（土）発売・各1,210円（税込）・64枚入り{"\n"}カードバック（メイン）／カードバック（カラー）／月ノ美兎／剣持刀也</Text>
       </Box>
-    </ScrollView>
-  );
-}
-
-export function RulesScreen({ pal, updatedAt }: { pal: Palette; updatedAt: string }) {
-  return (
-    <ScrollView contentContainerStyle={{ ...pad, paddingVertical: 12, gap: 10 }}>
-      {RULES.map((r) => (
-        <Box key={r.title} pal={pal}>
-          <Title pal={pal} size={16}>{r.title}</Title>
-          <Text style={{ color: pal.fg, fontSize: 14, lineHeight: 22 }}>{r.body}</Text>
-          {r.showColors ? (
-            <View style={s.row}>{COL7.map((c) => <View key={c} style={{ backgroundColor: COLOR[c], borderRadius: 3, paddingHorizontal: 9, paddingVertical: 2 }}><Text style={{ color: "#fff", fontWeight: "700" }}>{c}</Text></View>)}</View>
-          ) : null}
-          {r.link ? <Text style={{ color: pal.accent, fontSize: 13 }} onPress={() => Linking.openURL(r.link!.url)}>{r.link.label}</Text> : null}
-        </Box>
-      ))}
-      <Text style={{ color: pal.muted, fontSize: 12, lineHeight: 19, marginTop: 6 }}>
-        このアプリは公式X（@NIJISANJI7CCG）のカード紹介、公式HP、にじなな情報局10月号で公開された情報をまとめた非公式・個人用のツールです。公式のカードリストは「後日公開」。効果は要約なので、正確な文面は公式Xのポストで確認してください。カード画像の著作権は ©ANYCOLOR, Inc. ©TOMY に帰属します。データ更新：{updatedAt ? new Date(updatedAt).toLocaleString("ja-JP", { timeZone: "Asia/Tokyo" }) : "—"}
-      </Text>
-      <View style={{ flexDirection: "row", gap: 8, flexWrap: "wrap" }}>
-        <Btn label="公式X" pal={pal} onPress={() => Linking.openURL(X_ACCOUNT)} />
-        <Btn label="公式HP" pal={pal} onPress={() => Linking.openURL(OFFICIAL_SITE)} />
-      </View>
     </ScrollView>
   );
 }

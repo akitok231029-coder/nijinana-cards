@@ -22,6 +22,15 @@ export type Card = {
   img: string; // 公式Xに投稿された画像のURL
   sort: number;
   addedAt?: string;
+  kana?: string; // 名前の読み（ひらがな）。データ側で持っていれば検索に使う
+};
+
+export type Deck = {
+  id: string;
+  name: string;
+  channel: string; // チャンネルカードの id。未選択なら ""
+  cards: Record<string, number>; // カード id → 枚数（チャンネルは含まない）
+  updatedAt: string;
 };
 
 export type CardData = {

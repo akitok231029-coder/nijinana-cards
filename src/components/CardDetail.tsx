@@ -5,7 +5,7 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { ATTRS, TYPE_EN, type Palette } from "../theme";
 import { productById, XPOST } from "../data/static";
 import type { Card } from "../types";
-import { Badge, Btn, Code, ColorBar, Title, s } from "./ui";
+import { Badge, Btn, Code, ColorBar, Stepper, Title, s } from "./ui";
 
 function Row({ label, children, pal }: { label: string; children: React.ReactNode; pal: Palette }) {
   return (
@@ -16,7 +16,9 @@ function Row({ label, children, pal }: { label: string; children: React.ReactNod
   );
 }
 
-export function CardDetail({ card: c, pal, onClose }: { card: Card | null; pal: Palette; onClose: () => void }) {
+export type DeckHook = { name: string; count: number; onChange: (n: number) => void };
+
+export function CardDetail({ card: c, pal, onClose, deck }: { card: Card | null; pal: Palette; onClose: () => void; deck?: DeckHook }) {
   const insets = useSafeAreaInsets();
   const { width, height } = useWindowDimensions();
   const [zoom, setZoom] = useState(false);
@@ -73,6 +75,15 @@ export function CardDetail({ card: c, pal, onClose }: { card: Card | null; pal: 
             ) : (
               <Text style={{ color: pal.muted, fontSize: 13 }}>Lv・パワー・効果は未発表です。{c.fx ? `（${c.fx}）` : ""}</Text>
             )}
+            {deck && c.type !== "チャンネル" ? (
+              <View style={{ flexDirection: "row", alignItems: "center", justifyContent: "space-between", gap: 10, backgroundColor: pal.accentSoft, borderRadius: 12, padding: 12 }}>
+                <View style={{ flex: 1 }}>
+                  <Text style={[s.kicker, { color: pal.accent }]}>デッキに入れる</Text>
+                  <Text style={{ color: pal.fg, fontSize: 14 }} numberOfLines={1}>{deck.name}</Text>
+                </View>
+                <Stepper value={deck.count} onChange={deck.onChange} pal={pal} />
+              </View>
+            ) : null}
             <View style={{ flexDirection: "row", flexWrap: "wrap", gap: 8, marginTop: 4 }}>
               {c.x ? <Btn label="公式Xのポストを開く" primary pal={pal} onPress={() => Linking.openURL(XPOST(c.x))} /> : null}
               {p ? <Btn label="商品ページ" pal={pal} onPress={() => Linking.openURL(p.url)} /> : null}
