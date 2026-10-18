@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-18T11:20:00Z",
+ "updatedAt": "2026-10-18T14:17:32.382Z",
  "lastPostId": "2111751688491274667",
  "cards": [
   {
@@ -803,69 +803,6 @@
    "img": ""
   },
   {
-   "id": "BP01-pre03",
-   "liver": "夜見れな",
-   "attr": "unk",
-   "cols": [],
-   "tags": [],
-   "key": "",
-   "fx": "",
-   "lv": null,
-   "pow": null,
-   "no": "",
-   "rar": "",
-   "x": "",
-   "parallel": "CH★★",
-   "p": "BP01",
-   "type": "チャンネル",
-   "name": "夜見れな",
-   "sort": 5003,
-   "source": "official",
-   "img": ""
-  },
-  {
-   "id": "BP01-pre04",
-   "liver": "剣持刀也",
-   "attr": "sol",
-   "cols": [],
-   "tags": [],
-   "key": "",
-   "fx": "",
-   "lv": null,
-   "pow": null,
-   "no": "",
-   "rar": "",
-   "x": "",
-   "parallel": "SR★",
-   "p": "BP01",
-   "type": "ライバー",
-   "name": "剣持刀也",
-   "sort": 5004,
-   "source": "official",
-   "img": ""
-  },
-  {
-   "id": "BP01-pre05",
-   "liver": "でびでび・でびる",
-   "attr": "sol",
-   "cols": [],
-   "tags": [],
-   "key": "",
-   "fx": "イラスト1",
-   "lv": null,
-   "pow": null,
-   "no": "",
-   "rar": "",
-   "x": "",
-   "parallel": "N★",
-   "p": "BP01",
-   "type": "ライバー",
-   "name": "でびでび・でびる",
-   "sort": 5005,
-   "source": "official",
-   "img": ""
-  },
-  {
    "id": "BP01-pre06",
    "liver": "でびでび・でびる",
    "attr": "sol",
@@ -906,6 +843,34 @@
    "sort": 5007,
    "source": "official",
    "img": ""
+  },
+  {
+   "p": "BP01",
+   "key": "",
+   "x": "",
+   "source": "official-hp",
+   "addedAt": "2026-10-18T14:17:32.382Z",
+   "parallel": "SR★（別ビジュアル・特別版）",
+   "id": "BP01-kenmochi-SR",
+   "no": "NJ-BP01-00?（末尾不鮮明）",
+   "rar": "SR",
+   "type": "ライバー",
+   "name": "剣持刀也",
+   "liver": "剣持刀也",
+   "attr": "sol",
+   "lv": 1,
+   "pow": 4000,
+   "cols": [
+    "V"
+   ],
+   "tags": [
+    "囚人",
+    "弾丸",
+    "メメント"
+   ],
+   "fx": "【バトル勝利時】「剣持刀也」以外の自分の#弾丸を持つライバー1枚をタテにする。",
+   "img": "https://www.takaratomy.co.jp/products/nijisanji-7colors/images/products/img03.jpg",
+   "sort": 5008
   },
   {
    "id": "BP01-pre08",
@@ -992,27 +957,6 @@
    "img": ""
   },
   {
-   "id": "BP01-pre12",
-   "liver": "魔使マオ",
-   "attr": "stella",
-   "cols": [],
-   "tags": [],
-   "key": "",
-   "fx": "",
-   "lv": null,
-   "pow": null,
-   "no": "",
-   "rar": "",
-   "x": "",
-   "parallel": "R★",
-   "p": "BP01",
-   "type": "ライバー",
-   "name": "魔使マオ",
-   "sort": 5012,
-   "source": "official",
-   "img": ""
-  },
-  {
    "id": "BP01-pre13",
    "liver": "石神のぞみ",
    "attr": "stella",
@@ -1074,6 +1018,95 @@
    "sort": 5015,
    "source": "official",
    "img": ""
+  },
+  {
+   "p": "BP01",
+   "key": "",
+   "x": "",
+   "source": "official-hp",
+   "addedAt": "2026-10-18T14:17:32.382Z",
+   "parallel": "N★（キラ加工）",
+   "id": "NJ-BP01-020",
+   "no": "NJ-BP01-020",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "でびでび・でびる",
+   "liver": "でびでび・でびる",
+   "attr": "sol",
+   "lv": 4,
+   "pow": 9000,
+   "cols": [
+    "R",
+    "O",
+    "Y",
+    "G",
+    "V"
+   ],
+   "tags": [
+    "ふわふわ",
+    "B級",
+    "Brown"
+   ],
+   "fx": "【登場時】このカードをタテにし、このターン中パワー+2000。",
+   "img": "https://www.takaratomy.co.jp/products/nijisanji-7colors/images/products/img02.jpg",
+   "sort": 5020
+  },
+  {
+   "p": "BP01",
+   "key": "",
+   "x": "",
+   "source": "official-hp",
+   "addedAt": "2026-10-18T14:17:32.382Z",
+   "parallel": "CH★★（別ビジュアル・特別版）",
+   "id": "NJ-BP01-092",
+   "no": "NJ-BP01-092",
+   "rar": "CH",
+   "type": "チャンネル",
+   "name": "夜見れな",
+   "liver": "夜見れな",
+   "attr": "stella",
+   "lv": null,
+   "pow": null,
+   "cols": [],
+   "tags": [
+    "エンカウンター",
+    "クリエイター",
+    "伝説",
+    "ミッドナイト",
+    "Brown"
+   ],
+   "fx": "【起動メイン・ターン1回】自分の「夜見れな」のライバー1枚をデッキの下に置き、デッキの上から1枚をログに置く。ログに置いたのが、戻したライバーよりLvが1大きく同じ#を持つライバーなら、それを登場させる。【トリガー：Y・V】相手のターン中に自分のカラーカードが表になった時、そのターン相手のライバー1枚はカラーコールできない。",
+   "img": "https://www.takaratomy.co.jp/products/nijisanji-7colors/images/products/img03.jpg",
+   "sort": 5092
+  },
+  {
+   "p": "BP01",
+   "key": "",
+   "x": "",
+   "source": "official-hp",
+   "addedAt": "2026-10-18T14:17:32.382Z",
+   "parallel": "R★（キラ加工）",
+   "id": "NJ-BP01-112",
+   "no": "NJ-BP01-112",
+   "rar": "R",
+   "type": "ライバー",
+   "name": "魔使マオ",
+   "liver": "魔使マオ",
+   "attr": "stella",
+   "lv": 2,
+   "pow": 4000,
+   "cols": [
+    "Y",
+    "V"
+   ],
+   "tags": [
+    "クリエイター",
+    "組織",
+    "Brown"
+   ],
+   "fx": "【登場時】自分のデッキの上から3枚を見て、1枚を手札に、1枚をデッキの上に置き、残りをデッキの下に置く。",
+   "img": "https://www.takaratomy.co.jp/products/nijisanji-7colors/images/products/img02.jpg",
+   "sort": 5112
   }
  ]
 }
