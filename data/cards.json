@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-10-18T14:17:32.382Z",
- "lastPostId": "2111751688491274667",
+ "updatedAt": "2026-10-19T12:10:58.664Z",
+ "lastPostId": "2112106533077311974",
  "cards": [
   {
    "id": "NJ-SD01-001",
@@ -453,6 +453,34 @@
    "img": "https://pbs.twimg.com/media/HU3IOEZaEAE8uPn?format=jpg&name=large"
   },
   {
+   "id": "NJ-SD02-002",
+   "addedAt": "2026-10-19T07:30:23.779Z",
+   "attr": "luna",
+   "cols": [
+    "B"
+   ],
+   "fx": "【ブロッカー】相手の攻撃かカラーコール時、このカードを横向きにして中止させ、このカードとバトルする。",
+   "img": "https://pbs.twimg.com/media/HU8Yq4VbkAEEW3M?format=jpg&name=large",
+   "key": "ブロッカー",
+   "liver": "イブラヒム",
+   "lv": 1,
+   "name": "イブラヒム",
+   "no": "NJ-SD02-002",
+   "p": "SD02",
+   "parallel": "",
+   "pow": 3000,
+   "rar": "N",
+   "sort": 2002,
+   "source": "x",
+   "tags": [
+    "勝負師",
+    "バンド",
+    "B級"
+   ],
+   "type": "ライバー",
+   "x": "2112023475980566977"
+  },
+  {
    "id": "NJ-SD02-004",
    "liver": "イブラヒム",
    "attr": "luna",
@@ -476,9 +504,40 @@
    "p": "SD02",
    "type": "ライバー",
    "name": "イブラヒム",
-   "sort": 2002,
+   "sort": 2004,
    "source": "x",
    "img": "https://pbs.twimg.com/media/HU4TKSnaQAAJAGR?format=jpg&name=large"
+  },
+  {
+   "id": "NJ-SD02-005",
+   "addedAt": "2026-10-19T07:30:23.779Z",
+   "attr": "luna",
+   "cols": [
+    "O",
+    "Y",
+    "B",
+    "I"
+   ],
+   "fx": "【登場時】デッキの上から3枚を公開して好きな順でデッキの下へ。このターン中、公開したライバーのパワー合計分だけこのカードのパワーを上げる。",
+   "img": "https://pbs.twimg.com/media/HU8SGOiaEAE2YE6?format=jpg&name=large",
+   "key": "",
+   "liver": "イブラヒム",
+   "lv": 3,
+   "name": "イブラヒム",
+   "no": "NJ-SD02-005",
+   "p": "SD02",
+   "parallel": "",
+   "pow": 0,
+   "rar": "SDR",
+   "sort": 2005,
+   "source": "x",
+   "tags": [
+    "勝負師",
+    "バンド",
+    "B級"
+   ],
+   "type": "ライバー",
+   "x": "2112015936249311315"
   },
   {
    "id": "NJ-SD02-007",
@@ -501,9 +560,62 @@
    "p": "SD02",
    "type": "ライバー",
    "name": "エクス・アルビオ",
-   "sort": 2003,
+   "sort": 2007,
    "source": "x",
    "img": "https://pbs.twimg.com/media/HU4aaSkaEAAtcWk?format=jpg&name=large"
+  },
+  {
+   "id": "NJ-SD02-008",
+   "addedAt": "2026-10-19T09:52:22.711Z",
+   "attr": "luna",
+   "cols": [
+    "Y",
+    "G",
+    "B"
+   ],
+   "fx": "",
+   "img": "https://pbs.twimg.com/media/HU9dDIAagAAT3a_?format=jpg&name=large",
+   "key": "",
+   "liver": "エクス・アルビオ",
+   "lv": 2,
+   "name": "エクス・アルビオ",
+   "no": "NJ-SD02-008",
+   "p": "SD02",
+   "parallel": "",
+   "pow": 6000,
+   "rar": "N",
+   "sort": 2008,
+   "source": "x",
+   "tags": [],
+   "type": "ライバー",
+   "x": "2112098961901408462"
+  },
+  {
+   "id": "NJ-SD02-010",
+   "addedAt": "2026-10-19T09:52:22.711Z",
+   "attr": "luna",
+   "cols": [],
+   "fx": "",
+   "img": "https://pbs.twimg.com/media/HU9WjIba4AENhrr?format=jpg&name=large",
+   "key": "限定:同じ#",
+   "liver": "葛葉",
+   "lv": 0,
+   "name": "葛葉",
+   "no": "NJ-SD02-010",
+   "p": "SD02",
+   "parallel": "",
+   "pow": 3000,
+   "rar": "N",
+   "sort": 2010,
+   "source": "x",
+   "tags": [
+    "家族",
+    "ゲーマー",
+    "囚人",
+    "メメント"
+   ],
+   "type": "ライバー",
+   "x": "2112091424955273427"
   },
   {
    "id": "NJ-SD02-012",
@@ -532,7 +644,7 @@
    "p": "SD02",
    "type": "ライバー",
    "name": "葛葉",
-   "sort": 2004,
+   "sort": 2012,
    "source": "x",
    "img": "https://pbs.twimg.com/media/HU4MjlwaUAAHSZ-?format=jpg&name=large"
   },
@@ -562,9 +674,35 @@
    "p": "SD02",
    "type": "ライバー",
    "name": "葛葉",
-   "sort": 2005,
+   "sort": 2013,
    "source": "x",
    "img": "https://pbs.twimg.com/media/HU3O3lNbYAA781v?format=jpg&name=large"
+  },
+  {
+   "id": "NJ-SD02-014",
+   "addedAt": "2026-10-19T09:52:22.711Z",
+   "attr": "luna",
+   "cols": [],
+   "fx": "相手のLv5以下のライバー1枚のパワーをこのターン中-10000。それでパワーが0以下になったら、そのカードをログに置く。",
+   "img": "https://pbs.twimg.com/media/HU9kQDfa8AEpEdx?format=jpg&name=large",
+   "key": "",
+   "liver": "",
+   "lv": 2,
+   "name": "遊戯開始",
+   "no": "NJ-SD02-014",
+   "p": "SD02",
+   "parallel": "",
+   "pow": null,
+   "rar": "SDR",
+   "sort": 2014,
+   "source": "x",
+   "tags": [
+    "勝負師",
+    "バンド",
+    "B級"
+   ],
+   "type": "イベント",
+   "x": "2112106533077311974"
   },
   {
    "id": "NJ-SD02-016",
@@ -588,7 +726,7 @@
    "p": "SD02",
    "type": "ステージ",
    "name": "吸血鬼の夜",
-   "sort": 2006,
+   "sort": 2016,
    "source": "x",
    "img": "https://pbs.twimg.com/media/HU4g9PqboAE_9ER?format=jpg&name=large"
   },
