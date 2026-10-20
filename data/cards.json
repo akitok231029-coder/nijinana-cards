@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-10-20T05:07:20.345Z",
- "lastPostId": "2112385862449422728",
+ "updatedAt": "2026-10-20T09:52:00.000Z",
+ "lastPostId": "2112468928597516292",
  "cards": [
   {
    "id": "NJ-SD01-001",
@@ -481,6 +481,34 @@
    "x": "2112023475980566977"
   },
   {
+   "p": "SD02",
+   "parallel": "",
+   "source": "x",
+   "addedAt": "2026-10-20T09:52:00.000Z",
+   "attr": "luna",
+   "key": "",
+   "id": "NJ-SD02-003",
+   "no": "NJ-SD02-003",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "イブラヒム",
+   "liver": "イブラヒム",
+   "lv": 1,
+   "pow": 5000,
+   "cols": [
+    "Y"
+   ],
+   "tags": [
+    "勝負師",
+    "バンド",
+    "B級"
+   ],
+   "fx": "",
+   "x": "2112461363968971021",
+   "img": "https://pbs.twimg.com/media/HVCm4SMbMAAcPlH?format=jpg&name=large",
+   "sort": 2003
+  },
+  {
    "id": "NJ-SD02-004",
    "liver": "イブラヒム",
    "attr": "luna",
@@ -668,6 +696,36 @@
    "x": "2112091424955273427"
   },
   {
+   "p": "SD02",
+   "parallel": "",
+   "source": "x",
+   "addedAt": "2026-10-20T09:52:00.000Z",
+   "attr": "luna",
+   "key": "",
+   "id": "NJ-SD02-011",
+   "no": "NJ-SD02-011",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "葛葉",
+   "liver": "葛葉",
+   "lv": 2,
+   "pow": 5000,
+   "cols": [
+    "Y",
+    "I"
+   ],
+   "tags": [
+    "家族",
+    "ゲーマー",
+    "囚人",
+    "メメント"
+   ],
+   "fx": "【相手のターン中】バトルでこのカードがログに置かれた時、ログからLv0の「葛葉」のライバー1枚を登場させる。",
+   "x": "2112453815639347226",
+   "img": "https://pbs.twimg.com/media/HVCgXceaUAAeGZl?format=jpg&name=large",
+   "sort": 2011
+  },
+  {
    "id": "NJ-SD02-012",
    "liver": "葛葉",
    "attr": "luna",
@@ -753,6 +811,28 @@
    ],
    "type": "イベント",
    "x": "2112106533077311974"
+  },
+  {
+   "p": "SD02",
+   "parallel": "",
+   "source": "x",
+   "addedAt": "2026-10-20T09:52:00.000Z",
+   "attr": "luna",
+   "key": "",
+   "id": "NJ-SD02-015",
+   "no": "NJ-SD02-015",
+   "rar": "SDR",
+   "type": "イベント",
+   "name": "英雄の一撃",
+   "liver": "",
+   "lv": 3,
+   "pow": null,
+   "cols": [],
+   "tags": [],
+   "fx": "このターン中、相手のライバー1枚のパワー-3000。その後、ログからLv2以下の「エクス・アルビオ」のライバー1枚を登場させてよい。",
+   "x": "2112468928597516292",
+   "img": "https://pbs.twimg.com/media/HVCt8WDbUAAkhaS?format=jpg&name=large",
+   "sort": 2015
   },
   {
    "id": "NJ-SD02-016",
