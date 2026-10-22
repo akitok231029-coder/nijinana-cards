@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-10-20T09:52:00.000Z",
- "lastPostId": "2112468928597516292",
+ "updatedAt": "2026-10-22T12:23:49.000Z",
+ "lastPostId": "2112755802369147083",
  "cards": [
   {
    "id": "NJ-SD01-001",
@@ -861,25 +861,30 @@
    "img": "https://pbs.twimg.com/media/HU4g9PqboAE_9ER?format=jpg&name=large"
   },
   {
-   "id": "SD03-pre01",
+   "id": "NJ-SD03-001",
+   "p": "SD03",
+   "no": "NJ-SD03-001",
+   "rar": "CH",
+   "type": "チャンネル",
+   "name": "笹木咲",
    "liver": "笹木咲",
-   "attr": "unk",
-   "cols": [],
-   "tags": [],
-   "key": "",
-   "fx": "",
+   "attr": "comet",
    "lv": null,
    "pow": null,
-   "no": "",
-   "rar": "",
-   "x": "",
+   "cols": [],
+   "tags": [
+    "ゲーマー",
+    "囚人",
+    "バンド"
+   ],
+   "key": "",
+   "fx": "【相手のターン中・ターン1回】自分のライバーがバトルでログに置かれた時、そのライバーをこのカードの下に置く。その後、下のカードが3枚以上ならそれらを好きな順でデッキの下に戻し、手札が5枚になるまで引く。【トリガー：B】相手のターン中に自分のカラーカードが表になった時、手札が5枚になるまで引く。",
    "parallel": "",
-   "p": "SD03",
-   "type": "ライバー",
-   "name": "笹木咲",
-   "sort": 3001,
-   "source": "official",
-   "img": ""
+   "x": "2112740713746284831",
+   "img": "https://pbs.twimg.com/media/HVHZEU2aoAAgf42?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-10-22T12:23:49.000Z",
+   "sort": 3001
   },
   {
    "id": "SD03-pre02",
@@ -943,6 +948,38 @@
    "sort": 3004,
    "source": "official",
    "img": ""
+  },
+  {
+   "id": "NJ-SD03-005",
+   "p": "SD03",
+   "no": "NJ-SD03-005",
+   "rar": "SDR",
+   "type": "ライバー",
+   "name": "笹木咲",
+   "liver": "笹木咲",
+   "attr": "comet",
+   "lv": 5,
+   "pow": 12000,
+   "cols": [
+    "R",
+    "O",
+    "G",
+    "B",
+    "I"
+   ],
+   "tags": [
+    "ゲーマー",
+    "囚人",
+    "バンド"
+   ],
+   "key": "",
+   "fx": "【登場時】自分のログから、このカードと同じ#を持つLv1以下のライバー1枚をヨコで登場させてよい。にじエリアのカラーカードが5枚以上ならタテで登場させてよい。",
+   "parallel": "",
+   "x": "2112748252135371152",
+   "img": "https://pbs.twimg.com/media/HVHZX20aAAAFfXW?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-10-22T12:23:49.000Z",
+   "sort": 3005
   },
   {
    "id": "SD04-pre01",
