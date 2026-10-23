@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-10-22T12:35:49.000Z",
- "lastPostId": "2113236706967380264",
+ "updatedAt": "2026-10-23T14:07:17.000Z",
+ "lastPostId": "2113556108292051209",
  "cards": [
   {
    "id": "NJ-SD01-001",
@@ -941,25 +941,33 @@
    "sort": 3003
   },
   {
-   "id": "SD03-pre04",
-   "liver": "",
-   "attr": "unk",
-   "cols": [],
-   "tags": [],
-   "key": "",
-   "fx": "",
-   "lv": null,
-   "pow": null,
-   "no": "",
-   "rar": "",
-   "x": "",
-   "parallel": "",
+   "id": "NJ-SD03-004",
    "p": "SD03",
-   "type": "イベント",
-   "name": "ぱぁっ!",
-   "sort": 3004,
-   "source": "official",
-   "img": ""
+   "no": "NJ-SD03-004",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "笹木咲",
+   "liver": "笹木咲",
+   "attr": "comet",
+   "lv": 2,
+   "pow": 5000,
+   "cols": [
+    "R",
+    "B"
+   ],
+   "tags": [
+    "ゲーマー",
+    "囚人",
+    "バンド"
+   ],
+   "key": "",
+   "fx": "【登場時】このカード以外の自分のライバー1枚を選び、このターン中パワー+3000。元のパワーが7000以上なら代わりに+5000。",
+   "parallel": "",
+   "x": "2113540987784155347",
+   "img": "https://pbs.twimg.com/media/HVR9H2taAAANgvP?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-10-23T14:07:17.000Z",
+   "sort": 3004
   },
   {
    "id": "NJ-SD03-005",
@@ -1050,6 +1058,36 @@
    "sort": 3007
   },
   {
+   "id": "NJ-SD03-008",
+   "p": "SD03",
+   "no": "NJ-SD03-008",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "本間ひまわり",
+   "liver": "本間ひまわり",
+   "attr": "comet",
+   "lv": 3,
+   "pow": 8000,
+   "cols": [
+    "R",
+    "O",
+    "Y",
+    "G"
+   ],
+   "tags": [
+    "家族",
+    "ゲーマー"
+   ],
+   "key": "",
+   "fx": "",
+   "parallel": "",
+   "x": "2113548523547582777",
+   "img": "https://pbs.twimg.com/media/HVSD4kybIAAlvRc?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-10-23T14:07:17.000Z",
+   "sort": 3008
+  },
+  {
    "id": "NJ-SD03-009",
    "p": "SD03",
    "no": "NJ-SD03-009",
@@ -1137,6 +1175,88 @@
    "source": "x",
    "addedAt": "2026-10-22T12:35:49.000Z",
    "sort": 3011
+  },
+  {
+   "id": "NJ-SD03-012",
+   "p": "SD03",
+   "no": "NJ-SD03-012",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "魔界ノりりむ",
+   "liver": "魔界ノりりむ",
+   "attr": "comet",
+   "lv": 2,
+   "pow": 6000,
+   "cols": [
+    "R",
+    "I",
+    "V"
+   ],
+   "tags": [
+    "ゲーマー",
+    "シェアハウス"
+   ],
+   "key": "",
+   "fx": "",
+   "parallel": "",
+   "x": "2113473014394479070",
+   "img": "https://pbs.twimg.com/media/HVQ_ZMaaUAAYW7-?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-10-23T14:07:17.000Z",
+   "sort": 3012
+  },
+  {
+   "id": "NJ-SD03-013",
+   "p": "SD03",
+   "no": "NJ-SD03-013",
+   "rar": "SDR",
+   "type": "ライバー",
+   "name": "魔界ノりりむ",
+   "liver": "魔界ノりりむ",
+   "attr": "comet",
+   "lv": 3,
+   "pow": 8000,
+   "cols": [
+    "I",
+    "V"
+   ],
+   "tags": [
+    "ゲーマー",
+    "シェアハウス"
+   ],
+   "key": "",
+   "fx": "【バトル勝利時】ログにある#ゲーマーのLv0ライバー1枚をヨコ向きで登場させてもよい。",
+   "parallel": "",
+   "x": "2113465487707480301",
+   "img": "https://pbs.twimg.com/media/HVQ4b-sagAAJqlM?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-10-23T14:07:17.000Z",
+   "sort": 3013
+  },
+  {
+   "id": "NJ-SD03-014",
+   "p": "SD03",
+   "no": "NJ-SD03-014",
+   "rar": "SDR",
+   "type": "イベント",
+   "name": "ばぁっ!",
+   "liver": "",
+   "attr": "comet",
+   "lv": 2,
+   "pow": null,
+   "cols": [],
+   "tags": [
+    "ゲーマー",
+    "シェアハウス"
+   ],
+   "key": "",
+   "fx": "相手のLv5以下のライバー1枚をセットエリアへ送る。相手のセットエリアに既にカードがあれば、代わりにログへ送る。",
+   "parallel": "",
+   "x": "2113556108292051209",
+   "img": "https://pbs.twimg.com/media/HVSK4I5bIAAcyCu?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-10-23T14:07:17.000Z",
+   "sort": 3014
   },
   {
    "id": "NJ-SD03-015",
