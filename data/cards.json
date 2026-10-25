@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-10-23T14:07:17.000Z",
- "lastPostId": "2113556108292051209",
+ "updatedAt": "2026-10-25T08:40:46.000Z",
+ "lastPostId": "2114273297399734548",
  "cards": [
   {
    "id": "NJ-SD01-001",
@@ -1310,67 +1310,35 @@
    "sort": 3016
   },
   {
-   "id": "SD04-pre01",
-   "liver": "加賀美ハヤト",
-   "attr": "unk",
-   "cols": [],
-   "tags": [],
-   "key": "",
-   "fx": "",
-   "lv": null,
-   "pow": null,
-   "no": "",
-   "rar": "",
-   "x": "",
-   "parallel": "",
    "p": "SD04",
    "type": "ライバー",
+   "attr": "stella",
+   "parallel": "",
+   "source": "x",
+   "addedAt": "2026-10-25T08:40:46.000Z",
+   "key": "",
+   "id": "NJ-SD04-003",
+   "no": "NJ-SD04-003",
+   "rar": "N",
    "name": "加賀美ハヤト",
-   "sort": 4001,
-   "source": "official",
-   "img": ""
-  },
-  {
-   "id": "SD04-pre02",
-   "liver": "葉加瀬冬雪",
-   "attr": "unk",
-   "cols": [],
-   "tags": [],
-   "key": "",
+   "liver": "加賀美ハヤト",
+   "lv": 2,
+   "pow": 6000,
+   "cols": [
+    "R",
+    "O",
+    "Y"
+   ],
+   "tags": [
+    "エンカウンター",
+    "カードゲーマー",
+    "塾",
+    "メメント"
+   ],
    "fx": "",
-   "lv": null,
-   "pow": null,
-   "no": "",
-   "rar": "",
-   "x": "",
-   "parallel": "",
-   "p": "SD04",
-   "type": "ライバー",
-   "name": "葉加瀬冬雪",
-   "sort": 4002,
-   "source": "official",
-   "img": ""
-  },
-  {
-   "id": "SD04-pre03",
-   "liver": "夜見れな",
-   "attr": "unk",
-   "cols": [],
-   "tags": [],
-   "key": "",
-   "fx": "",
-   "lv": null,
-   "pow": null,
-   "no": "",
-   "rar": "",
-   "x": "",
-   "parallel": "",
-   "p": "SD04",
-   "type": "ライバー",
-   "name": "夜見れな",
-   "sort": 4003,
-   "source": "official",
-   "img": ""
+   "x": "2114265750966059026",
+   "img": "https://pbs.twimg.com/media/HVcPhIla8AAaqcc?format=jpg&name=large",
+   "sort": 4003
   },
   {
    "id": "SD04-pre04",
@@ -1392,6 +1360,62 @@
    "sort": 4004,
    "source": "official",
    "img": ""
+  },
+  {
+   "p": "SD04",
+   "type": "ライバー",
+   "attr": "stella",
+   "parallel": "",
+   "source": "x",
+   "addedAt": "2026-10-25T08:40:46.000Z",
+   "key": "",
+   "id": "NJ-SD04-006",
+   "no": "NJ-SD04-006",
+   "rar": "N",
+   "name": "葉加瀬冬雪",
+   "liver": "葉加瀬冬雪",
+   "lv": 1,
+   "pow": 5000,
+   "cols": [
+    "B"
+   ],
+   "tags": [
+    "エンカウンター"
+   ],
+   "fx": "",
+   "x": "2114197802691760360",
+   "img": "https://pbs.twimg.com/media/HVbR1CxbMAAMgan?format=jpg&name=large",
+   "sort": 4006
+  },
+  {
+   "p": "SD04",
+   "type": "ライバー",
+   "attr": "stella",
+   "parallel": "",
+   "source": "x",
+   "addedAt": "2026-10-25T08:40:46.000Z",
+   "key": "",
+   "id": "NJ-SD04-011",
+   "no": "NJ-SD04-011",
+   "rar": "N",
+   "name": "夜見れな",
+   "liver": "夜見れな",
+   "lv": 1,
+   "pow": 4000,
+   "cols": [
+    "V"
+   ],
+   "tags": [
+    "エンカウンター",
+    "クリエイター",
+    "伝説",
+    "ミッドナイト",
+    "Brown"
+   ],
+   "fx": "【タテになった時】相手のカラーカードを1枚表向きにする。",
+   "x": "2114273297399734548",
+   "img": "https://pbs.twimg.com/media/HVcWRbIaMAAh_nS?format=jpg&name=large",
+   "sort": 4011
   },
   {
    "id": "BP01-pre01",
