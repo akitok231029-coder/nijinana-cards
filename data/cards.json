@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-10-25T08:40:46.000Z",
- "lastPostId": "2114273297399734548",
+ "updatedAt": "2026-10-26T09:52:42.000Z",
+ "lastPostId": "2114560188770660540",
  "cards": [
   {
    "id": "NJ-SD01-001",
@@ -1253,7 +1253,7 @@
    "fx": "相手のLv5以下のライバー1枚をセットエリアへ送る。相手のセットエリアに既にカードがあれば、代わりにログへ送る。",
    "parallel": "",
    "x": "2113556108292051209",
-   "img": "https://pbs.twimg.com/media/HVSK4I5bIAAcyCu?format=jpg&name=large",
+   "img": "https://pbs.twimg.com/media/HVSK4I5bIAAlvRc?format=jpg&name=large",
    "source": "x",
    "addedAt": "2026-10-23T14:07:17.000Z",
    "sort": 3014
@@ -1416,6 +1416,95 @@
    "x": "2114273297399734548",
    "img": "https://pbs.twimg.com/media/HVcWRbIaMAAh_nS?format=jpg&name=large",
    "sort": 4011
+  },
+  {
+   "id": "NJ-SD04-012",
+   "p": "SD04",
+   "no": "NJ-SD04-012",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "夜見れな",
+   "liver": "夜見れな",
+   "attr": "stella",
+   "lv": 2,
+   "pow": 5000,
+   "cols": [
+    "Y",
+    "I",
+    "V"
+   ],
+   "tags": [
+    "エンカウンター",
+    "クリエイター",
+    "伝説",
+    "ミッドナイト",
+    "Brown"
+   ],
+   "key": "",
+   "fx": "【登場時】自分と相手は、それぞれ対戦相手のカラーカードを1枚ずつ表にする。",
+   "parallel": "",
+   "x": "2114560188770660540",
+   "img": "https://pbs.twimg.com/media/HVgbuHdaUAAqr1-?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-10-26T09:52:42.000Z",
+   "sort": 4012
+  },
+  {
+   "id": "NJ-SD04-013",
+   "p": "SD04",
+   "no": "NJ-SD04-013",
+   "rar": "SDR",
+   "type": "ライバー",
+   "name": "夜見れな",
+   "liver": "夜見れな",
+   "attr": "stella",
+   "lv": 4,
+   "pow": 10000,
+   "cols": [
+    "R",
+    "O",
+    "Y",
+    "V"
+   ],
+   "tags": [
+    "エンカウンター",
+    "クリエイター",
+    "伝説",
+    "ミッドナイト",
+    "Brown"
+   ],
+   "key": "",
+   "fx": "【相手のターン中】バトルでこのカードがログに置かれた時、デッキの上から3枚を見て、このカードと同じ#を持つLv2以下のライバーを1枚までヨコで登場させ、残りは好きな順でデッキの下へ。",
+   "parallel": "",
+   "x": "2114552645151281585",
+   "img": "https://pbs.twimg.com/media/HVgUwccbgAAPxzG?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-10-26T09:52:42.000Z",
+   "sort": 4013
+  },
+  {
+   "id": "NJ-SD04-015",
+   "p": "SD04",
+   "no": "NJ-SD04-015",
+   "rar": "SDR",
+   "type": "イベント",
+   "name": "大爆発",
+   "liver": "",
+   "attr": "stella",
+   "lv": 2,
+   "pow": null,
+   "cols": [],
+   "tags": [
+    "エンカウンター"
+   ],
+   "key": "",
+   "fx": "相手のLv5以下のライバー1枚を手札に戻す。",
+   "parallel": "",
+   "x": "2114280849864835280",
+   "img": "https://pbs.twimg.com/media/HVcdMEnbUAEth87?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-10-26T09:52:42.000Z",
+   "sort": 4015
   },
   {
    "id": "BP01-pre01",
