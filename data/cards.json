@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-10-27T14:04:17.000Z",
- "lastPostId": "2114990754993250314",
+ "updatedAt": "2026-10-28T10:03:37.000Z",
+ "lastPostId": "2115368024245145652",
  "cards": [
   {
    "id": "NJ-SD01-001",
@@ -1638,6 +1638,60 @@
    "img": ""
   },
   {
+   "id": "NJ-BP01-004",
+   "p": "BP01",
+   "no": "NJ-BP01-004",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "家長むぎ",
+   "liver": "家長むぎ",
+   "attr": "sol",
+   "lv": 2,
+   "pow": 6000,
+   "cols": [
+    "O",
+    "Y",
+    "G"
+   ],
+   "tags": [
+    "弾丸"
+   ],
+   "key": "",
+   "fx": "",
+   "parallel": "",
+   "x": "2115360451823616442",
+   "img": "https://pbs.twimg.com/media/HVrzfMsagAAYsPG?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-10-28T10:03:37.000Z",
+   "sort": 5004
+  },
+  {
+   "id": "NJ-BP01-005",
+   "p": "BP01",
+   "no": "NJ-BP01-005",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "剣持刀也",
+   "liver": "剣持刀也",
+   "attr": "sol",
+   "lv": 0,
+   "pow": 3000,
+   "cols": [],
+   "tags": [
+    "囚人",
+    "弾丸",
+    "メメント"
+   ],
+   "key": "限定:同じ#",
+   "fx": "限定：同じ#（チャンネルカードと同じ#を持つ場合のみデッキに入れられる）",
+   "parallel": "",
+   "x": "2115277423688515945",
+   "img": "https://pbs.twimg.com/media/HVqoQ4sbIAAqZ4H?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-10-28T10:03:37.000Z",
+   "sort": 5005
+  },
+  {
    "id": "BP01-pre06",
    "liver": "でびでび・でびる",
    "attr": "sol",
@@ -1885,6 +1939,89 @@
    "fx": "【登場時】このカードをタテにし、このターン中パワー+2000。",
    "img": "https://www.takaratomy.co.jp/products/nijisanji-7colors/images/products/img02.jpg",
    "sort": 5020
+  },
+  {
+   "id": "NJ-BP01-022",
+   "p": "BP01",
+   "no": "NJ-BP01-022",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "伏見ガク",
+   "liver": "伏見ガク",
+   "attr": "sol",
+   "lv": 2,
+   "pow": 6000,
+   "cols": [
+    "R",
+    "O",
+    "V"
+   ],
+   "tags": [
+    "オカルト",
+    "勝負師",
+    "弾丸",
+    "トゥライユーン"
+   ],
+   "key": "",
+   "fx": "",
+   "parallel": "",
+   "x": "2115352917968564367",
+   "img": "https://pbs.twimg.com/media/HVrs55Xa0AAajvP?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-10-28T10:03:37.000Z",
+   "sort": 5022
+  },
+  {
+   "id": "NJ-BP01-024",
+   "p": "BP01",
+   "no": "NJ-BP01-024",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "夕陽リリ",
+   "liver": "夕陽リリ",
+   "attr": "sol",
+   "lv": 2,
+   "pow": 6000,
+   "cols": [
+    "R",
+    "B",
+    "I"
+   ],
+   "tags": [
+    "弾丸"
+   ],
+   "key": "",
+   "fx": "",
+   "parallel": "",
+   "x": "2115284967718785457",
+   "img": "https://pbs.twimg.com/media/HVqvDVebcAAizwu?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-10-28T10:03:37.000Z",
+   "sort": 5024
+  },
+  {
+   "id": "NJ-BP01-030",
+   "p": "BP01",
+   "no": "NJ-BP01-030",
+   "rar": "N",
+   "type": "ステージ",
+   "name": "4発の弾丸",
+   "liver": "",
+   "attr": "sol",
+   "lv": 1,
+   "pow": null,
+   "cols": [],
+   "tags": [
+    "弾丸"
+   ],
+   "key": "",
+   "fx": "【ターン1回】自分の#弾丸ライバーがバトルに勝った時、そのライバーで相手の裏向きのカラーカードにSPコールする（SPコールはブロッカーなどで中止されない）。",
+   "parallel": "",
+   "x": "2115368024245145652",
+   "img": "https://pbs.twimg.com/media/HVr6pPdaEAE6xiB?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-10-28T10:03:37.000Z",
+   "sort": 5030
   },
   {
    "p": "BP01",
