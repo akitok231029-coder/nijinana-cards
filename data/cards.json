@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-10-28T10:03:37.000Z",
- "lastPostId": "2115368024245145652",
+ "updatedAt": "2026-10-29T09:58:15.000Z",
+ "lastPostId": "2115715530103611463",
  "cards": [
   {
    "id": "NJ-SD01-001",
@@ -1759,6 +1759,34 @@
    ],
    "fx": "【バトル勝利時】「剣持刀也」以外の自分の#弾丸を持つライバー1枚をタテにする。",
    "img": "https://www.takaratomy.co.jp/products/nijisanji-7colors/images/products/img03.jpg",
+   "sort": 5008
+  },
+  {
+   "id": "NJ-BP01-008",
+   "p": "BP01",
+   "no": "NJ-BP01-008",
+   "rar": "SR",
+   "type": "ライバー",
+   "name": "剣持刀也",
+   "liver": "剣持刀也",
+   "attr": "sol",
+   "lv": 1,
+   "pow": 4000,
+   "cols": [
+    "V"
+   ],
+   "tags": [
+    "囚人",
+    "弾丸",
+    "メメント"
+   ],
+   "key": "",
+   "fx": "【バトル勝利時】「剣持刀也」以外の自分の#弾丸ライバー1枚をタテにする。",
+   "parallel": "SR★★（\"にじ\"色立体箔）版あり（ポスト 2115715306190705070）",
+   "x": "2115639816138400191",
+   "img": "https://pbs.twimg.com/media/HVvx--2bQAAzhrR?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-10-29T09:58:15.000Z",
    "sort": 5008
   },
   {
