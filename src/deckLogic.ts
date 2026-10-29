@@ -5,6 +5,8 @@ import { COL7 } from "./theme";
 export const DECK_SIZE = 50;
 export const MAX_COPIES = 4; // 同じカード番号の上限。公式未発表のため目安（スターターデッキの構成から推定）
 
+const CLASS_NAME: Record<string, string> = { sol: "ソル", luna: "ルナ", comet: "コメット", stella: "ステラ", unk: "未確認" };
+
 export const newDeckId = () => "d" + Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
 
 export function setCount(d: Deck, cardId: string, n: number): Deck {
@@ -32,6 +34,9 @@ export function checkDeck(d: Deck, byId: Record<string, Card>): Issue[] {
       continue;
     }
     if (c.type === "チャンネル") out.push({ level: "ng", text: `${c.name}（チャンネル）はデッキに入れられません` });
+    if (ch && ch.attr !== "unk" && c.attr !== "unk" && c.attr !== ch.attr)
+      out.push({ level: "ng", text: `${c.no || c.name} はクラスが違います（チャンネル：${CLASS_NAME[ch.attr]}／このカード：${CLASS_NAME[c.attr]}）` });
+    if (ch && ch.attr !== "unk" && c.attr === "unk") out.push({ level: "warn", text: `${c.name} はクラス未確認です` });
     if (cnt > MAX_COPIES) out.push({ level: "warn", text: `${c.no || c.name} が${cnt}枚（同じカードは${MAX_COPIES}枚までが目安）` });
     if (/IRIS ?ONE|アイリスワン/i.test(c.key)) iris += cnt;
     if (/限定[:：]\s*同じ#/.test(c.key) && ch) {

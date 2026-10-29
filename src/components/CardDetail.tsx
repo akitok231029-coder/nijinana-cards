@@ -49,7 +49,7 @@ export function CardDetail({ card: c, pal, onClose, deck }: { card: Card | null;
                   <View style={s.row}><Code label={c.no} pal={pal} />{c.rar ? <Badge label={c.rar} pal={pal} strong /> : null}</View>
                 </Row>
               ) : null}
-              <Row label="属性" pal={pal}>
+              <Row label="クラス" pal={pal}>
                 <View style={[s.row, { gap: 6 }]}><View style={{ width: 10, height: 10, borderRadius: 5, backgroundColor: attr.color }} /><Text style={{ color: pal.fg, fontSize: 14 }}>{attr.label}</Text></View>
               </Row>
               {c.type !== "チャンネル" ? <Row label="Lv" pal={pal}>{c.lv != null ? String(c.lv) : "未発表"}</Row> : null}

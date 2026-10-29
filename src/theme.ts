@@ -38,10 +38,10 @@ export const COL_NAME: Record<Col, string> = { R: "赤", O: "橙", Y: "黄", G: 
 export const RAINBOW = COL7.map((c) => COLOR[c]) as [string, string, ...string[]];
 
 export const ATTRS: Record<Attr, { label: string; color: string }> = {
-  sol: { label: "太陽（ソル）", color: "#ff5c8a" },
-  luna: { label: "月（ルナ）", color: "#4f7cf0" },
-  comet: { label: "彗星（コメット）", color: "#22b7cf" },
-  stella: { label: "星（ステラ）", color: "#f0b21a" },
+  sol: { label: "ソル（太陽）", color: "#ff5c8a" },
+  luna: { label: "ルナ（月）", color: "#4f7cf0" },
+  comet: { label: "コメット（彗星）", color: "#22b7cf" },
+  stella: { label: "ステラ（星）", color: "#f0b21a" },
   unk: { label: "未確認", color: "#aab2cc" },
 };
 

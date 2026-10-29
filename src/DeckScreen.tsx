@@ -222,7 +222,7 @@ function DeckEditor({ pal, deck, cards, byId, upsert, remove, onBack, onOpenCard
         <Text style={{ color: pal.muted, fontSize: 12 }}>デッキはこのスマホの中に保存されます。デッキコードを使うと、別の端末でも読み込めます。同じカードの上限（{MAX_COPIES}枚）は公式未発表のため目安です。</Text>
       </ScrollView>
 
-      <CardPicker visible={picker} onClose={() => setPicker(false)} pal={pal} cards={cards.filter((c) => c.type !== "チャンネル")} counts={deck.cards} onChange={change} title="カードを追加" />
+      <CardPicker visible={picker} onClose={() => setPicker(false)} pal={pal} cards={cards.filter((c) => c.type !== "チャンネル" && (!ch || ch.attr === "unk" || c.attr === "unk" || c.attr === ch.attr))} counts={deck.cards} onChange={change} title={ch && ch.attr !== "unk" ? `カードを追加（${ATTRS[ch.attr].label.split("（")[0]}のみ）` : "カードを追加"} />
       <CardPicker visible={chPicker} onClose={() => setChPicker(false)} pal={pal} cards={cards.filter((c) => c.type === "チャンネル")} counts={{}} title="チャンネルカードを選ぶ"
         onPick={(c) => { upsert({ ...deck, channel: c.id, updatedAt: new Date().toISOString() }); setChPicker(false); }} selectedId={deck.channel} />
     </>

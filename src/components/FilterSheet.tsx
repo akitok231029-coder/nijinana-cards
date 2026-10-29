@@ -37,7 +37,7 @@ export function FilterSheet({ visible, value, onChange, onClose, pal, resultCoun
           <Group title="種類" pal={pal}>
             {TYPES.map((t) => <Chip key={t} label={t} on={f.types.includes(t)} onPress={() => onChange({ ...f, types: toggle(f.types, t) })} pal={pal} />)}
           </Group>
-          <Group title="属性" pal={pal}>
+          <Group title="クラス" pal={pal}>
             {(Object.keys(ATTRS) as Attr[]).map((k) => (
               <Chip key={k} label={ATTRS[k].label} dot={ATTRS[k].color} on={f.attrs.includes(k)} onPress={() => onChange({ ...f, attrs: toggle(f.attrs, k) })} pal={pal} />
             ))}
