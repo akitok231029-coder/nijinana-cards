@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-10-29T09:58:15.000Z",
- "lastPostId": "2115715530103611463",
+ "updatedAt": "2026-11-01T07:08:16.706Z",
+ "lastPostId": "2116726972667855088",
  "cards": [
   {
    "id": "NJ-SD01-001",
@@ -1638,6 +1638,33 @@
    "img": ""
   },
   {
+   "id": "NJ-BP01-003",
+   "p": "BP01",
+   "no": "NJ-BP01-003",
+   "rar": "R",
+   "type": "ライバー",
+   "name": "家長むぎ",
+   "liver": "家長むぎ",
+   "attr": "sol",
+   "lv": 2,
+   "pow": 5000,
+   "cols": [
+    "R",
+    "O"
+   ],
+   "tags": [
+    "弾丸"
+   ],
+   "key": "",
+   "fx": "【登場時】デッキの上3枚を見て、#弾丸のカード1枚までを公開して手札に加え、残りは好きな順でデッキの下へ。",
+   "parallel": "",
+   "x": "2116085239969947715",
+   "img": "https://pbs.twimg.com/media/HV2G-mEbIAAHRRW?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-01T07:08:16.706Z",
+   "sort": 5003
+  },
+  {
    "id": "NJ-BP01-004",
    "p": "BP01",
    "no": "NJ-BP01-004",
@@ -1713,6 +1740,34 @@
    "img": ""
   },
   {
+   "id": "NJ-BP01-006",
+   "p": "BP01",
+   "no": "NJ-BP01-006",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "剣持刀也",
+   "liver": "剣持刀也",
+   "attr": "sol",
+   "lv": 1,
+   "pow": 4000,
+   "cols": [
+    "B"
+   ],
+   "tags": [
+    "囚人",
+    "弾丸",
+    "メメント"
+   ],
+   "key": "",
+   "fx": "「剣持刀也」以外の自分のライバーが攻撃された時、ヨコのこのカードをログに置いてそのバトルを中止できる。",
+   "parallel": "",
+   "x": "2116364587260145947",
+   "img": "https://pbs.twimg.com/media/HV6FLrYbYAAEBj-?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-01T07:08:16.706Z",
+   "sort": 5006
+  },
+  {
    "id": "BP01-pre07",
    "liver": "鷹宮リオン",
    "attr": "sol",
@@ -1732,6 +1787,34 @@
    "sort": 5007,
    "source": "official",
    "img": ""
+  },
+  {
+   "id": "NJ-BP01-007",
+   "p": "BP01",
+   "no": "NJ-BP01-007",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "剣持刀也",
+   "liver": "剣持刀也",
+   "attr": "sol",
+   "lv": 1,
+   "pow": 4000,
+   "cols": [
+    "I"
+   ],
+   "tags": [
+    "囚人",
+    "弾丸",
+    "メメント"
+   ],
+   "key": "",
+   "fx": "【相手のターン中】バトルでこのカードがログに置かれた時、ログに#弾丸ライバーが4枚以上あれば、相手のカラーカード1枚を表にする。",
+   "parallel": "",
+   "x": "2116440080898494646",
+   "img": "https://pbs.twimg.com/media/HV7Jhuda0AAzJrH?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-01T07:08:16.706Z",
+   "sort": 5007
   },
   {
    "p": "BP01",
@@ -1830,6 +1913,36 @@
    "sort": 5009,
    "source": "official",
    "img": ""
+  },
+  {
+   "id": "NJ-BP01-009",
+   "p": "BP01",
+   "no": "NJ-BP01-009",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "剣持刀也",
+   "liver": "剣持刀也",
+   "attr": "sol",
+   "lv": 2,
+   "pow": 5000,
+   "cols": [
+    "G",
+    "I",
+    "V"
+   ],
+   "tags": [
+    "囚人",
+    "弾丸",
+    "メメント"
+   ],
+   "key": "",
+   "fx": "【登場時】ログに「家長むぎ」「伏見ガク」「夕陽リリ」のライバーがそろっていれば、このターン中このカードは全色を持つ。",
+   "parallel": "",
+   "x": "2116002206004683242",
+   "img": "https://pbs.twimg.com/media/HV07lcgagAA2RVr?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-01T07:08:16.706Z",
+   "sort": 5009
   },
   {
    "id": "BP01-pre10",
@@ -1937,6 +2050,34 @@
    "img": ""
   },
   {
+   "id": "NJ-BP01-016",
+   "p": "BP01",
+   "no": "NJ-BP01-016",
+   "rar": "SR",
+   "type": "ライバー",
+   "name": "月ノ美兎",
+   "liver": "月ノ美兎",
+   "attr": "sol",
+   "lv": 3,
+   "pow": 8000,
+   "cols": [
+    "R",
+    "G"
+   ],
+   "tags": [
+    "囚人",
+    "JK"
+   ],
+   "key": "",
+   "fx": "【タテになった時】相手は自分のタテのライバー1枚をヨコにする。",
+   "parallel": "",
+   "x": "2116726972667855088",
+   "img": "https://pbs.twimg.com/media/HV_ObIkaUAAieS4?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-01T07:08:16.706Z",
+   "sort": 5016
+  },
+  {
    "p": "BP01",
    "key": "",
    "x": "",
@@ -1969,6 +2110,36 @@
    "sort": 5020
   },
   {
+   "id": "NJ-BP01-021",
+   "p": "BP01",
+   "no": "NJ-BP01-021",
+   "rar": "R",
+   "type": "ライバー",
+   "name": "伏見ガク",
+   "liver": "伏見ガク",
+   "attr": "sol",
+   "lv": 2,
+   "pow": 5000,
+   "cols": [
+    "Y",
+    "V"
+   ],
+   "tags": [
+    "オカルト",
+    "勝負師",
+    "弾丸",
+    "トゥライユーン"
+   ],
+   "key": "",
+   "fx": "このカード以外の自分の#弾丸ライバーがバトルに勝った時、このカードと手札1枚をログに置いてよい。そうしたら、ログからLv4以下の「剣持刀也」のライバー1枚を登場させる。",
+   "parallel": "",
+   "x": "2116077698871374178",
+   "img": "https://pbs.twimg.com/media/HV2Ah5za0AAGSNG?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-01T07:08:16.706Z",
+   "sort": 5021
+  },
+  {
    "id": "NJ-BP01-022",
    "p": "BP01",
    "no": "NJ-BP01-022",
@@ -1998,6 +2169,34 @@
    "source": "x",
    "addedAt": "2026-10-28T10:03:37.000Z",
    "sort": 5022
+  },
+  {
+   "id": "NJ-BP01-023",
+   "p": "BP01",
+   "no": "NJ-BP01-023",
+   "rar": "R",
+   "type": "ライバー",
+   "name": "夕陽リリ",
+   "liver": "夕陽リリ",
+   "attr": "sol",
+   "lv": 2,
+   "pow": 5000,
+   "cols": [
+    "R",
+    "G",
+    "B"
+   ],
+   "tags": [
+    "弾丸"
+   ],
+   "key": "",
+   "fx": "【ターン1回】このカード以外の自分の#弾丸ライバーがバトルに勝った時、相手のカラーカード1枚を表にする。",
+   "parallel": "",
+   "x": "2116009728287580337",
+   "img": "https://pbs.twimg.com/media/HV1CUowaMAA8AvC?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-01T07:08:16.706Z",
+   "sort": 5023
   },
   {
    "id": "NJ-BP01-024",
