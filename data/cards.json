@@ -2303,7 +2303,7 @@
     "組織",
     "Brown"
    ],
-   "fx": "【登場時】自分のデッキの上から3枚を見て、1枚を手札に、1枚をデッキの上に置き、残りは好きな順でデッキの下に置く。",
+   "fx": "【登場時】自分のデッキの上から3枚を見て、1枚を手札に、1枚をデッキの上に置き、残りをデッキの下に置く。",
    "img": "https://www.takaratomy.co.jp/products/nijisanji-7colors/images/products/img02.jpg",
    "sort": 5112
   }
