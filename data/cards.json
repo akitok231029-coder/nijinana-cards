@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-01T07:08:16.706Z",
- "lastPostId": "2116726972667855088",
+ "updatedAt": "2026-11-01T09:53:21.000Z",
+ "lastPostId": "2116802467216412716",
  "cards": [
   {
    "id": "NJ-SD01-001",
@@ -2070,11 +2070,11 @@
    ],
    "key": "",
    "fx": "【タテになった時】相手は自分のタテのライバー1枚をヨコにする。",
-   "parallel": "",
+   "parallel": "SR★★（サイン箔付き）版あり（ポスト 2116802467216412716）",
    "x": "2116726972667855088",
    "img": "https://pbs.twimg.com/media/HV_ObIkaUAAieS4?format=jpg&name=large",
    "source": "x",
-   "addedAt": "2026-11-01T07:08:16.706Z",
+   "addedAt": "2026-11-01T09:53:21.000Z",
    "sort": 5016
   },
   {
@@ -2303,7 +2303,7 @@
     "組織",
     "Brown"
    ],
-   "fx": "【登場時】自分のデッキの上から3枚を見て、1枚を手札に、1枚をデッキの上に置き、残りをデッキの下に置く。",
+   "fx": "【登場時】自分のデッキの上から3枚を見て、1枚を手札に、1枚をデッキの上に置き、残りは好きな順でデッキの下に置く。",
    "img": "https://www.takaratomy.co.jp/products/nijisanji-7colors/images/products/img02.jpg",
    "sort": 5112
   }
