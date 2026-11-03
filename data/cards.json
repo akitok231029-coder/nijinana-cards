@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-02T10:17:20.000Z",
- "lastPostId": "2117164859603472753",
+ "updatedAt": "2026-11-03T10:50:11.000Z",
+ "lastPostId": "2117542344514048150",
  "cards": [
   {
    "id": "NJ-SD01-001",
@@ -1873,27 +1873,6 @@
    "sort": 5008
   },
   {
-   "id": "BP01-pre08",
-   "liver": "赤羽葉子",
-   "attr": "luna",
-   "cols": [],
-   "tags": [],
-   "key": "",
-   "fx": "",
-   "lv": null,
-   "pow": null,
-   "no": "",
-   "rar": "",
-   "x": "",
-   "parallel": "",
-   "p": "BP01",
-   "type": "ライバー",
-   "name": "赤羽葉子",
-   "sort": 5008,
-   "source": "official",
-   "img": ""
-  },
-  {
    "id": "BP01-pre09",
    "liver": "レイン・パターソン",
    "attr": "luna",
@@ -2277,6 +2256,118 @@
    "source": "x",
    "addedAt": "2026-11-02T10:17:20.000Z",
    "sort": 5032
+  },
+  {
+   "id": "NJ-BP01-033",
+   "p": "BP01",
+   "no": "NJ-BP01-033",
+   "rar": "R",
+   "type": "ライバー",
+   "name": "赤羽葉子",
+   "liver": "赤羽葉子",
+   "attr": "luna",
+   "lv": 1,
+   "pow": 2000,
+   "cols": [
+    "O"
+   ],
+   "tags": [
+    "オカルト",
+    "ゲーマー",
+    "バンド"
+   ],
+   "key": "限定:同じ#",
+   "fx": "【登場時】ログにある#ゲーマーのイベント1枚をデッキの下に戻してよい。戻したらカードを1枚引く。",
+   "parallel": "",
+   "x": "2117534792401248363",
+   "img": "https://pbs.twimg.com/media/HWKsosuaMAA5OEZ?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-03T10:50:11.000Z",
+   "sort": 5033
+  },
+  {
+   "id": "NJ-BP01-041",
+   "p": "BP01",
+   "no": "NJ-BP01-041",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "椎名唯華",
+   "liver": "椎名唯華",
+   "attr": "luna",
+   "lv": 1,
+   "pow": 4000,
+   "cols": [
+    "R"
+   ],
+   "tags": [
+    "オカルト",
+    "ゲーマー",
+    "囚人",
+    "伝説",
+    "バンド"
+   ],
+   "key": "",
+   "fx": "このカードと同じ#を持つイベントを発動する時、場のこのカードはコスト2枚分として扱える。",
+   "parallel": "",
+   "x": "2117451751951655163",
+   "img": "https://pbs.twimg.com/media/HWJhYMEbQAAeuxz?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-03T10:50:11.000Z",
+   "sort": 5041
+  },
+  {
+   "id": "NJ-BP01-053",
+   "p": "BP01",
+   "no": "NJ-BP01-053",
+   "rar": "N",
+   "type": "イベント",
+   "name": "赤羽葉子のこわいはなし",
+   "liver": "",
+   "attr": "luna",
+   "lv": 1,
+   "pow": null,
+   "cols": [],
+   "tags": [
+    "オカルト",
+    "ゲーマー",
+    "バンド"
+   ],
+   "key": "",
+   "fx": "相手のライバー1枚を選び、このターン中パワー-2000。さらにそのカードはこのターン攻撃・カラーコール・ブロッカーの発動ができない。",
+   "parallel": "",
+   "x": "2117542344514048150",
+   "img": "https://pbs.twimg.com/media/HWKzgLpasAAarDf?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-03T10:50:11.000Z",
+   "sort": 5053
+  },
+  {
+   "id": "NJ-BP01-055",
+   "p": "BP01",
+   "no": "NJ-BP01-055",
+   "rar": "N",
+   "type": "イベント",
+   "name": "霊の導き",
+   "liver": "",
+   "attr": "luna",
+   "lv": 2,
+   "pow": null,
+   "cols": [],
+   "tags": [
+    "オカルト",
+    "ゲーマー",
+    "囚人",
+    "伝説",
+    "バンド"
+   ],
+   "key": "限定:同じ#",
+   "fx": "デッキをシャッフルして上から1枚をログに置く。それが「椎名唯華」のライバーなら登場させ、#ゲーマーを持つイベントなら発動する。",
+   "parallel": "",
+   "x": "2117527242695999834",
+   "img": "https://pbs.twimg.com/media/HWKmBT0aUAAmAvV?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-03T10:50:11.000Z",
+   "sort": 5055
   },
   {
    "p": "BP01",
