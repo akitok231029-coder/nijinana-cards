@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-06T10:36:22.000Z",
- "lastPostId": "2118614412978466963",
+ "updatedAt": "2026-11-07T09:52:48.000Z",
+ "lastPostId": "2118984341481218235",
  "cards": [
   {
    "id": "NJ-SD01-001",
@@ -2375,6 +2375,38 @@
    "sort": 5041
   },
   {
+   "id": "NJ-BP01-042",
+   "p": "BP01",
+   "no": "NJ-BP01-042",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "椎名唯華",
+   "liver": "椎名唯華",
+   "attr": "luna",
+   "lv": 2,
+   "pow": 6000,
+   "cols": [
+    "R",
+    "Y",
+    "I"
+   ],
+   "tags": [
+    "オカルト",
+    "ゲーマー",
+    "囚人",
+    "伝説",
+    "バンド"
+   ],
+   "key": "",
+   "fx": "",
+   "parallel": "",
+   "x": "2118901303078531338",
+   "img": "https://pbs.twimg.com/media/HWeHsYeaQAAie7U?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-07T09:52:48.000Z",
+   "sort": 5042
+  },
+  {
    "id": "NJ-BP01-043",
    "p": "BP01",
    "no": "NJ-BP01-043",
@@ -2407,6 +2439,42 @@
    "source": "x",
    "addedAt": "2026-11-04T11:34:29.000Z",
    "sort": 5043
+  },
+  {
+   "id": "NJ-BP01-044",
+   "p": "BP01",
+   "no": "NJ-BP01-044",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "椎名唯華",
+   "liver": "椎名唯華",
+   "attr": "luna",
+   "lv": 7,
+   "pow": 16000,
+   "cols": [
+    "R",
+    "O",
+    "Y",
+    "G",
+    "B",
+    "I",
+    "V"
+   ],
+   "tags": [
+    "オカルト",
+    "ゲーマー",
+    "囚人",
+    "伝説",
+    "バンド"
+   ],
+   "key": "",
+   "fx": "",
+   "parallel": "",
+   "x": "2118976795945128203",
+   "img": "https://pbs.twimg.com/media/HWfMfWsbUAAYRcA?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-07T09:52:48.000Z",
+   "sort": 5044
   },
   {
    "id": "NJ-BP01-053",
@@ -2489,6 +2557,32 @@
    "source": "x",
    "addedAt": "2026-11-03T10:50:11.000Z",
    "sort": 5055
+  },
+  {
+   "id": "NJ-BP01-057",
+   "p": "BP01",
+   "no": "NJ-BP01-057",
+   "rar": "N",
+   "type": "イベント",
+   "name": "虹の怪異",
+   "liver": "",
+   "attr": "luna",
+   "lv": 3,
+   "pow": null,
+   "cols": [],
+   "tags": [
+    "オカルト",
+    "ゲーマー",
+    "バンド"
+   ],
+   "key": "限定:同じ#",
+   "fx": "相手のカラーカード1枚を表向きにする。その後、自分のログからLv2以下の#オカルトのライバー1枚を登場させてもよい。",
+   "parallel": "",
+   "x": "2118984341481218235",
+   "img": "https://pbs.twimg.com/media/HWfTHEhaQAApKlu?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-07T09:52:48.000Z",
+   "sort": 5057
   },
   {
    "id": "NJ-BP01-059",
