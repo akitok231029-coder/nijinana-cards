@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-07T09:52:48.000Z",
- "lastPostId": "2118984341481218235",
+ "updatedAt": "2026-11-09T11:01:54.000Z",
+ "lastPostId": "2119716681757180160",
  "cards": [
   {
    "id": "NJ-SD01-001",
@@ -1617,27 +1617,6 @@
    "sort": 5001
   },
   {
-   "id": "BP01-pre02",
-   "liver": "皇れお",
-   "attr": "unk",
-   "cols": [],
-   "tags": [],
-   "key": "",
-   "fx": "",
-   "lv": null,
-   "pow": null,
-   "no": "",
-   "rar": "",
-   "x": "",
-   "parallel": "",
-   "p": "BP01",
-   "type": "チャンネル",
-   "name": "皇れお",
-   "sort": 5002,
-   "source": "official",
-   "img": ""
-  },
-  {
    "id": "NJ-BP01-003",
    "p": "BP01",
    "no": "NJ-BP01-003",
@@ -1941,27 +1920,6 @@
    "type": "イベント",
    "name": "必殺必中",
    "sort": 5010,
-   "source": "official",
-   "img": ""
-  },
-  {
-   "id": "BP01-pre11",
-   "liver": "城瀬いすみ",
-   "attr": "comet",
-   "cols": [],
-   "tags": [],
-   "key": "",
-   "fx": "",
-   "lv": null,
-   "pow": null,
-   "no": "",
-   "rar": "",
-   "x": "",
-   "parallel": "",
-   "p": "BP01",
-   "type": "ライバー",
-   "name": "城瀬いすみ",
-   "sort": 5011,
    "source": "official",
    "img": ""
   },
@@ -2611,6 +2569,156 @@
    "source": "x",
    "addedAt": "2026-11-05T11:32:01.000Z",
    "sort": 5059
+  },
+  {
+   "id": "NJ-BP01-061",
+   "p": "BP01",
+   "no": "NJ-BP01-061",
+   "rar": "CH",
+   "type": "チャンネル",
+   "name": "皇れお",
+   "liver": "皇れお",
+   "attr": "comet",
+   "lv": null,
+   "pow": null,
+   "cols": [],
+   "tags": [
+    "学園"
+   ],
+   "key": "",
+   "fx": "【起動メイン】ターン1回：手札1枚をログに置き、相手のカラーカード1枚を表にする。【トリガー：R・B】相手ターン中に自分のカラーカードが表になった時、ログから「学園の保健室」1枚を登場させてよい。",
+   "parallel": "CH★★（\"にじ\"色立体箔・別ビジュアル）版あり（ポスト 2119339180992131221）",
+   "x": "2119263688758796744",
+   "img": "https://pbs.twimg.com/media/HWjRcWFawAANamb?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-09T11:01:54.000Z",
+   "sort": 5061
+  },
+  {
+   "id": "NJ-BP01-067",
+   "p": "BP01",
+   "no": "NJ-BP01-067",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "篠宮ゆの",
+   "liver": "篠宮ゆの",
+   "attr": "comet",
+   "lv": 1,
+   "pow": 4000,
+   "cols": [
+    "I"
+   ],
+   "tags": [
+    "学園"
+   ],
+   "key": "",
+   "fx": "【相手のターン中】このカードがバトルでログに置かれた時、自分のログに#学園ライバーが4枚以上あれば、相手のカラーカード1枚を表にする。",
+   "parallel": "",
+   "x": "2119633620763918399",
+   "img": "https://pbs.twimg.com/media/HWoh4j5a4AAolGM?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-09T11:01:54.000Z",
+   "sort": 5067
+  },
+  {
+   "id": "NJ-BP01-070",
+   "p": "BP01",
+   "no": "NJ-BP01-070",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "城瀬いすみ",
+   "liver": "城瀬いすみ",
+   "attr": "comet",
+   "lv": 0,
+   "pow": 3000,
+   "cols": [],
+   "tags": [
+    "学園"
+   ],
+   "key": "限定:#学園",
+   "fx": "",
+   "parallel": "",
+   "x": "2119701576201998558",
+   "img": "https://pbs.twimg.com/media/HWpf3IHaQAI1hLN?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-09T11:01:54.000Z",
+   "sort": 5070
+  },
+  {
+   "id": "NJ-BP01-073",
+   "p": "BP01",
+   "no": "NJ-BP01-073",
+   "rar": "R",
+   "type": "ライバー",
+   "name": "皇れお",
+   "liver": "皇れお",
+   "attr": "comet",
+   "lv": 1,
+   "pow": 2000,
+   "cols": [
+    "B"
+   ],
+   "tags": [
+    "学園"
+   ],
+   "key": "限定:#学園",
+   "fx": "【登場時】デッキから「学園の保健室」1枚まで公開して手札に加え、デッキをシャッフルする。",
+   "parallel": "",
+   "x": "2119626079946342464",
+   "img": "https://pbs.twimg.com/media/HWobAmQbIAAGL_9?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-09T11:01:54.000Z",
+   "sort": 5073
+  },
+  {
+   "id": "NJ-BP01-076",
+   "p": "BP01",
+   "no": "NJ-BP01-076",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "花籠つばさ",
+   "liver": "花籠つばさ",
+   "attr": "comet",
+   "lv": 1,
+   "pow": 4000,
+   "cols": [
+    "G"
+   ],
+   "tags": [
+    "学園"
+   ],
+   "key": "",
+   "fx": "自分の「花籠つばさ」以外のライバーが攻撃された時、ヨコのこのカードをログに置いてよい。そうしたらそのバトルを中止する。",
+   "parallel": "",
+   "x": "2119709118210687217",
+   "img": "https://pbs.twimg.com/media/HWpmff4aoAAwdxy?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-09T11:01:54.000Z",
+   "sort": 5076
+  },
+  {
+   "id": "NJ-BP01-089",
+   "p": "BP01",
+   "no": "NJ-BP01-089",
+   "rar": "N",
+   "type": "ステージ",
+   "name": "学園の保健室",
+   "liver": "",
+   "attr": "comet",
+   "lv": 0,
+   "pow": null,
+   "cols": [],
+   "tags": [
+    "学園"
+   ],
+   "key": "限定:#学園",
+   "fx": "【相手のターン中】自分の#学園ライバーがバトルでログに置かれた時、このカードをログに置いてよい。そうしたら、そのライバーをヨコで登場させる。",
+   "parallel": "",
+   "x": "2119716681757180160",
+   "img": "https://pbs.twimg.com/media/HWptrFxbsAAoKVT?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-09T11:01:54.000Z",
+   "sort": 5089
   },
   {
    "p": "BP01",
