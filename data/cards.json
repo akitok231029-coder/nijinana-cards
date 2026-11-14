@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-12T14:50:29.000Z",
- "lastPostId": "2120834032506401140",
+ "updatedAt": "2026-11-14T00:58:02.000Z",
+ "lastPostId": "2121173767590404270",
  "cards": [
   {
    "id": "NJ-SD01-001",
@@ -2648,6 +2648,36 @@
    "sort": 5068
   },
   {
+   "id": "NJ-BP01-069",
+   "p": "BP01",
+   "no": "NJ-BP01-069",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "篠宮ゆの",
+   "liver": "篠宮ゆの",
+   "attr": "comet",
+   "lv": 4,
+   "pow": 10000,
+   "cols": [
+    "Y",
+    "G",
+    "B",
+    "I",
+    "V"
+   ],
+   "tags": [
+    "学園"
+   ],
+   "key": "",
+   "fx": "",
+   "parallel": "",
+   "x": "2121151127442055388",
+   "img": "https://pbs.twimg.com/media/HW-GaGQasAEV-ZF?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-14T00:58:02.000Z",
+   "sort": 5069
+  },
+  {
    "id": "NJ-BP01-070",
    "p": "BP01",
    "no": "NJ-BP01-070",
@@ -2670,6 +2700,32 @@
    "source": "x",
    "addedAt": "2026-11-09T11:01:54.000Z",
    "sort": 5070
+  },
+  {
+   "id": "NJ-BP01-071",
+   "p": "BP01",
+   "no": "NJ-BP01-071",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "城瀬いすみ",
+   "liver": "城瀬いすみ",
+   "attr": "comet",
+   "lv": 1,
+   "pow": 5000,
+   "cols": [
+    "R"
+   ],
+   "tags": [
+    "学園"
+   ],
+   "key": "",
+   "fx": "",
+   "parallel": "",
+   "x": "2121158666577662461",
+   "img": "https://pbs.twimg.com/media/HW-NKbHaAAAHJW-?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-14T00:58:02.000Z",
+   "sort": 5071
   },
   {
    "id": "NJ-BP01-072",
@@ -2724,6 +2780,62 @@
    "sort": 5073
   },
   {
+   "id": "NJ-BP01-074",
+   "p": "BP01",
+   "no": "NJ-BP01-074",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "皇れお",
+   "liver": "皇れお",
+   "attr": "comet",
+   "lv": 2,
+   "pow": 5000,
+   "cols": [
+    "R",
+    "O",
+    "B"
+   ],
+   "tags": [
+    "学園"
+   ],
+   "key": "",
+   "fx": "【登場時】ログに「篠宮ゆの」「城瀬いすみ」「花籠つばさ」のライバーがそろっていれば、このターン中このカードは全色を持つ。",
+   "parallel": "",
+   "x": "2121083160960422187",
+   "img": "https://pbs.twimg.com/media/HW9IqFcb0AE_peV?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-14T00:58:02.000Z",
+   "sort": 5074
+  },
+  {
+   "id": "NJ-BP01-075",
+   "p": "BP01",
+   "no": "NJ-BP01-075",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "皇れお",
+   "liver": "皇れお",
+   "attr": "comet",
+   "lv": 3,
+   "pow": 8000,
+   "cols": [
+    "R",
+    "B",
+    "I"
+   ],
+   "tags": [
+    "学園"
+   ],
+   "key": "",
+   "fx": "【カラーコール成功時・ターン1回】ログからLv0の#学園ライバー1枚を登場させてよい。",
+   "parallel": "",
+   "x": "2121075620847464749",
+   "img": "https://pbs.twimg.com/media/HW9BkjIasAAUinc?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-14T00:58:02.000Z",
+   "sort": 5075
+  },
+  {
    "id": "NJ-BP01-076",
    "p": "BP01",
    "no": "NJ-BP01-076",
@@ -2748,6 +2860,32 @@
    "source": "x",
    "addedAt": "2026-11-09T11:01:54.000Z",
    "sort": 5076
+  },
+  {
+   "id": "NJ-BP01-077",
+   "p": "BP01",
+   "no": "NJ-BP01-077",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "花籠つばさ",
+   "liver": "花籠つばさ",
+   "attr": "comet",
+   "lv": 1,
+   "pow": 5000,
+   "cols": [
+    "O"
+   ],
+   "tags": [
+    "学園"
+   ],
+   "key": "",
+   "fx": "",
+   "parallel": "",
+   "x": "2121166250747552162",
+   "img": "https://pbs.twimg.com/media/HW-USaEbAAAQD-Z?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-14T00:58:02.000Z",
+   "sort": 5077
   },
   {
    "id": "NJ-BP01-078",
@@ -2775,6 +2913,30 @@
    "source": "x",
    "addedAt": "2026-11-12T14:50:29.000Z",
    "sort": 5078
+  },
+  {
+   "id": "NJ-BP01-087",
+   "p": "BP01",
+   "no": "NJ-BP01-087",
+   "rar": "N",
+   "type": "イベント",
+   "name": "学園の校章",
+   "liver": "",
+   "attr": "comet",
+   "lv": 1,
+   "pow": null,
+   "cols": [],
+   "tags": [
+    "学園"
+   ],
+   "key": "限定:#学園",
+   "fx": "このターン中、自分の#学園ライバー1枚は全色を持つ。",
+   "parallel": "",
+   "x": "2121173767590404270",
+   "img": "https://pbs.twimg.com/media/HW-bImbacAAH9qi?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-14T00:58:02.000Z",
+   "sort": 5087
   },
   {
    "id": "NJ-BP01-089",
