@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-14T00:58:02.000Z",
- "lastPostId": "2121173767590404270",
+ "updatedAt": "2026-11-18T12:06:22.000Z",
+ "lastPostId": "2123008565996638541",
  "cards": [
   {
    "id": "NJ-SD01-001",
@@ -1924,48 +1924,6 @@
    "img": ""
   },
   {
-   "id": "BP01-pre13",
-   "liver": "石神のぞみ",
-   "attr": "stella",
-   "cols": [],
-   "tags": [],
-   "key": "",
-   "fx": "",
-   "lv": null,
-   "pow": null,
-   "no": "",
-   "rar": "",
-   "x": "",
-   "parallel": "",
-   "p": "BP01",
-   "type": "ライバー",
-   "name": "石神のぞみ",
-   "sort": 5013,
-   "source": "official",
-   "img": ""
-  },
-  {
-   "id": "BP01-pre14",
-   "liver": "獅子堂あかり",
-   "attr": "stella",
-   "cols": [],
-   "tags": [],
-   "key": "",
-   "fx": "",
-   "lv": null,
-   "pow": null,
-   "no": "",
-   "rar": "",
-   "x": "",
-   "parallel": "",
-   "p": "BP01",
-   "type": "ライバー",
-   "name": "獅子堂あかり",
-   "sort": 5014,
-   "source": "official",
-   "img": ""
-  },
-  {
    "id": "BP01-pre15",
    "liver": "リゼ・ヘルエスタ",
    "attr": "unk",
@@ -2963,6 +2921,30 @@
    "sort": 5089
   },
   {
+   "id": "NJ-BP01-091",
+   "p": "BP01",
+   "no": "NJ-BP01-091",
+   "rar": "CH",
+   "type": "チャンネル",
+   "name": "石神のぞみ",
+   "liver": "石神のぞみ",
+   "attr": "stella",
+   "lv": null,
+   "pow": null,
+   "cols": [],
+   "tags": [
+    "特異性"
+   ],
+   "key": "",
+   "fx": "【ターン1回】自分のLv2の#特異性ライバーがカラーコールした時、相手のカラーカード1枚を表にする。【トリガー：V】相手ターン中に自分のカラーカードが表になった時、ログからLv2以下の#特異性ライバー1枚をヨコで登場させてよい。",
+   "parallel": "CH★★（\"にじ\"色立体箔・別ビジュアル）版あり（ポスト 2121513509041431018）",
+   "x": "2121438018599018703",
+   "img": "https://pbs.twimg.com/media/HXCK-eOasAAao7S?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-18T12:06:22.000Z",
+   "sort": 5091
+  },
+  {
    "p": "BP01",
    "key": "",
    "x": "",
@@ -2989,6 +2971,249 @@
    "fx": "【起動メイン・ターン1回】自分の「夜見れな」のライバー1枚をデッキの下に置き、デッキの上から1枚をログに置く。ログに置いたのが、戻したライバーよりLvが1大きく同じ#を持つライバーなら、それを登場させる。【トリガー：Y・V】相手のターン中に自分のカラーカードが表になった時、そのターン相手のライバー1枚はカラーコールできない。",
    "img": "https://www.takaratomy.co.jp/products/nijisanji-7colors/images/products/img03.jpg",
    "sort": 5092
+  },
+  {
+   "id": "NJ-BP01-096",
+   "p": "BP01",
+   "no": "NJ-BP01-096",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "石神のぞみ",
+   "liver": "石神のぞみ",
+   "attr": "stella",
+   "lv": 0,
+   "pow": 3000,
+   "cols": [],
+   "tags": [
+    "特異性"
+   ],
+   "key": "限定:#特異性",
+   "fx": "",
+   "parallel": "",
+   "x": "2122600681081393551",
+   "img": "https://pbs.twimg.com/media/HXSspkza0AIs39Z?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-18T12:06:22.000Z",
+   "sort": 5096
+  },
+  {
+   "id": "NJ-BP01-097",
+   "p": "BP01",
+   "no": "NJ-BP01-097",
+   "rar": "R",
+   "type": "ライバー",
+   "name": "石神のぞみ",
+   "liver": "石神のぞみ",
+   "attr": "stella",
+   "lv": 2,
+   "pow": 5000,
+   "cols": [
+    "G",
+    "V"
+   ],
+   "tags": [
+    "特異性"
+   ],
+   "key": "限定:#特異性",
+   "fx": "【カラーコール成功時】このカードを手札に戻してよい。そうしたらデッキの上3枚を見て、Lv4以下の#特異性ライバー1枚までをヨコで登場させ、残りは好きな順でデッキの下へ。",
+   "parallel": "",
+   "x": "2121800401771274248",
+   "img": "https://pbs.twimg.com/media/HXHUWsdbsAAIonl?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-18T12:06:22.000Z",
+   "sort": 5097
+  },
+  {
+   "id": "NJ-BP01-098",
+   "p": "BP01",
+   "no": "NJ-BP01-098",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "石神のぞみ",
+   "liver": "石神のぞみ",
+   "attr": "stella",
+   "lv": 3,
+   "pow": 8000,
+   "cols": [
+    "R",
+    "G",
+    "I",
+    "V"
+   ],
+   "tags": [
+    "特異性"
+   ],
+   "key": "",
+   "fx": "",
+   "parallel": "",
+   "x": "2122525182506185129",
+   "img": "https://pbs.twimg.com/media/HXRnqvOa0AAjO3W?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-18T12:06:22.000Z",
+   "sort": 5098
+  },
+  {
+   "id": "NJ-BP01-101",
+   "p": "BP01",
+   "no": "NJ-BP01-101",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "倉持めると",
+   "liver": "倉持めると",
+   "attr": "stella",
+   "lv": 1,
+   "pow": 4000,
+   "cols": [
+    "B"
+   ],
+   "tags": [
+    "特異性"
+   ],
+   "key": "",
+   "fx": "自分にLv3以上の#特異性ライバーがいれば、このカードのパワー+2000。",
+   "parallel": "",
+   "x": "2122608220959391798",
+   "img": "https://pbs.twimg.com/media/HXSzV8mbwAAhYIj?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-18T12:06:22.000Z",
+   "sort": 5101
+  },
+  {
+   "id": "NJ-BP01-103",
+   "p": "BP01",
+   "no": "NJ-BP01-103",
+   "rar": "R",
+   "type": "ライバー",
+   "name": "倉持めると",
+   "liver": "倉持めると",
+   "attr": "stella",
+   "lv": 2,
+   "pow": 5000,
+   "cols": [
+    "R",
+    "B"
+   ],
+   "tags": [
+    "特異性"
+   ],
+   "key": "限定:#特異性",
+   "fx": "【カラーコール成功時】このカードを手札に戻してよい。そうしたらデッキの上3枚を見て、Lv4以下の#特異性ライバー1枚までをヨコで登場させ、残りは好きな順でデッキの下へ。",
+   "parallel": "",
+   "x": "2121883441696575621",
+   "img": "https://pbs.twimg.com/media/HXIfq2IagAArkrm?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-18T12:06:22.000Z",
+   "sort": 5103
+  },
+  {
+   "id": "NJ-BP01-104",
+   "p": "BP01",
+   "no": "NJ-BP01-104",
+   "rar": "SR",
+   "type": "ライバー",
+   "name": "倉持めると",
+   "liver": "倉持めると",
+   "attr": "stella",
+   "lv": 3,
+   "pow": 7000,
+   "cols": [
+    "R",
+    "B",
+    "I",
+    "V"
+   ],
+   "tags": [
+    "特異性"
+   ],
+   "key": "",
+   "fx": "【登場時】手札1枚をログに置いてよい。そうしたらこのカードをタテにし、このターン中パワー+2000。",
+   "parallel": "SR★★（サイン箔付き）版あり（ポスト 2122238290048987355）",
+   "x": "2122162797543133383",
+   "img": "https://pbs.twimg.com/media/HXMeLfNaYAA7t2g?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-18T12:06:22.000Z",
+   "sort": 5104
+  },
+  {
+   "id": "NJ-BP01-105",
+   "p": "BP01",
+   "no": "NJ-BP01-105",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "獅子堂あかり",
+   "liver": "獅子堂あかり",
+   "attr": "stella",
+   "lv": 1,
+   "pow": 4000,
+   "cols": [
+    "O"
+   ],
+   "tags": [
+    "特異性"
+   ],
+   "key": "",
+   "fx": "【登場時】1枚引き、その後手札1枚をデッキの上に置く。",
+   "parallel": "",
+   "x": "2122615780479312096",
+   "img": "https://pbs.twimg.com/media/HXTEiana8AAVxmX?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-18T12:06:22.000Z",
+   "sort": 5105
+  },
+  {
+   "id": "NJ-BP01-107",
+   "p": "BP01",
+   "no": "NJ-BP01-107",
+   "rar": "R",
+   "type": "ライバー",
+   "name": "獅子堂あかり",
+   "liver": "獅子堂あかり",
+   "attr": "stella",
+   "lv": 2,
+   "pow": 5000,
+   "cols": [
+    "O",
+    "Y"
+   ],
+   "tags": [
+    "特異性"
+   ],
+   "key": "限定:#特異性",
+   "fx": "【カラーコール成功時】このカードを手札に戻してよい。そうしたらデッキの上3枚を見て、Lv4以下の#特異性ライバー1枚までをヨコで登場させ、残りは好きな順でデッキの下へ。",
+   "parallel": "",
+   "x": "2121875897288622362",
+   "img": "https://pbs.twimg.com/media/HXIZCSdasAA2vTd?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-18T12:06:22.000Z",
+   "sort": 5107
+  },
+  {
+   "id": "NJ-BP01-108",
+   "p": "BP01",
+   "no": "NJ-BP01-108",
+   "rar": "SR",
+   "type": "ライバー",
+   "name": "獅子堂あかり",
+   "liver": "獅子堂あかり",
+   "attr": "stella",
+   "lv": 3,
+   "pow": 8000,
+   "cols": [
+    "O",
+    "Y",
+    "I"
+   ],
+   "tags": [
+    "特異性"
+   ],
+   "key": "",
+   "fx": "各ターン、相手の攻撃でこのカードが初めてログに置かれる時、代わりに手札の#特異性カード1枚をログに置いてよい。",
+   "parallel": "SR★★（サイン箔付き）版あり（ポスト 2122963065616609583）",
+   "x": "2122887573316272451",
+   "img": "https://pbs.twimg.com/media/HXWxb0ca4AAp9Md?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-18T12:06:22.000Z",
+   "sort": 5108
   },
   {
    "p": "BP01",
@@ -3018,6 +3243,30 @@
    "fx": "【登場時】自分のデッキの上から3枚を見て、1枚を手札に、1枚をデッキの上に置き、残りをデッキの下に置く。",
    "img": "https://www.takaratomy.co.jp/products/nijisanji-7colors/images/products/img02.jpg",
    "sort": 5112
+  },
+  {
+   "id": "NJ-BP01-119",
+   "p": "BP01",
+   "no": "NJ-BP01-119",
+   "rar": "N",
+   "type": "ステージ",
+   "name": "掴み取るためのステージ",
+   "liver": "",
+   "attr": "stella",
+   "lv": 1,
+   "pow": null,
+   "cols": [],
+   "tags": [
+    "特異性"
+   ],
+   "key": "限定:#特異性",
+   "fx": "【起動メイン・ターン1回】デッキの上3枚を見て、#特異性カード1枚までを公開して手札に加え、残りは好きな順でデッキの上へ。その後、手札1枚をデッキの上に置く。",
+   "parallel": "",
+   "x": "2121890998427230330",
+   "img": "https://pbs.twimg.com/media/HXImp-MbUAELrJA?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-18T12:06:22.000Z",
+   "sort": 5119
   },
   {
    "id": "NJ-BP01-123",
