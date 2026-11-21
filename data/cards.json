@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-18T12:06:22.000Z",
- "lastPostId": "2123008565996638541",
+ "updatedAt": "2026-11-21T09:02:45.000Z",
+ "lastPostId": "2124050222238355627",
  "cards": [
   {
    "id": "NJ-SD01-001",
@@ -1617,6 +1617,32 @@
    "sort": 5001
   },
   {
+   "id": "NJ-BP01-002",
+   "p": "BP01",
+   "no": "NJ-BP01-002",
+   "rar": "CH",
+   "type": "チャンネル",
+   "name": "でびでび・でびる",
+   "liver": "でびでび・でびる",
+   "attr": "sol",
+   "lv": null,
+   "pow": null,
+   "cols": [],
+   "tags": [
+    "ふわふわ",
+    "B級",
+    "Brown"
+   ],
+   "key": "",
+   "fx": "各ターン、相手が最初にカラーコールした時、自分のヨコの「でびでび・でびる」のライバー1枚をログに置けば、そのカラーコールを中止できる。【トリガー：V】相手ターン中に自分のカラーカードが表になった時、デッキからLv1以下の「でびでび・でびる」のライバー1枚までを登場させ、デッキをシャッフルする。",
+   "parallel": "CH★★（\"にじ\"色立体箔・別ビジュアル）版あり（ポスト 2123687848591474915）",
+   "x": "2123612358597840924",
+   "img": "https://pbs.twimg.com/media/HXhFOwIakAAU1u2?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-21T09:02:45.000Z",
+   "sort": 5002
+  },
+  {
    "id": "NJ-BP01-003",
    "p": "BP01",
    "no": "NJ-BP01-003",
@@ -1698,27 +1724,6 @@
    "sort": 5005
   },
   {
-   "id": "BP01-pre06",
-   "liver": "でびでび・でびる",
-   "attr": "sol",
-   "cols": [],
-   "tags": [],
-   "key": "",
-   "fx": "イラスト2",
-   "lv": null,
-   "pow": null,
-   "no": "",
-   "rar": "",
-   "x": "",
-   "parallel": "",
-   "p": "BP01",
-   "type": "ライバー",
-   "name": "でびでび・でびる",
-   "sort": 5006,
-   "source": "official",
-   "img": ""
-  },
-  {
    "id": "NJ-BP01-006",
    "p": "BP01",
    "no": "NJ-BP01-006",
@@ -1745,27 +1750,6 @@
    "source": "x",
    "addedAt": "2026-11-01T07:08:16.706Z",
    "sort": 5006
-  },
-  {
-   "id": "BP01-pre07",
-   "liver": "鷹宮リオン",
-   "attr": "sol",
-   "cols": [],
-   "tags": [],
-   "key": "",
-   "fx": "",
-   "lv": null,
-   "pow": null,
-   "no": "",
-   "rar": "",
-   "x": "",
-   "parallel": "",
-   "p": "BP01",
-   "type": "ライバー",
-   "name": "鷹宮リオン",
-   "sort": 5007,
-   "source": "official",
-   "img": ""
   },
   {
    "id": "NJ-BP01-007",
@@ -1924,6 +1908,33 @@
    "img": ""
   },
   {
+   "id": "NJ-BP01-013",
+   "p": "BP01",
+   "no": "NJ-BP01-013",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "鷹宮リオン",
+   "liver": "鷹宮リオン",
+   "attr": "sol",
+   "lv": 2,
+   "pow": 6000,
+   "cols": [
+    "Y",
+    "G"
+   ],
+   "tags": [
+    "お嬢様"
+   ],
+   "key": "",
+   "fx": "【ターン1回】「鷹宮リオン」以外の自分のライバーが攻撃された時、そのバトル中、攻撃されたカードのパワー+1000。",
+   "parallel": "",
+   "x": "2124050222238355627",
+   "img": "https://pbs.twimg.com/media/HXnSwxybAAAzRzF?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-21T09:02:45.000Z",
+   "sort": 5013
+  },
+  {
    "id": "BP01-pre15",
    "liver": "リゼ・ヘルエスタ",
    "attr": "unk",
@@ -1971,6 +1982,34 @@
    "source": "x",
    "addedAt": "2026-11-01T09:53:21.000Z",
    "sort": 5016
+  },
+  {
+   "id": "NJ-BP01-017",
+   "p": "BP01",
+   "no": "NJ-BP01-017",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "でびでび・でびる",
+   "liver": "でびでび・でびる",
+   "attr": "sol",
+   "lv": 1,
+   "pow": 5000,
+   "cols": [
+    "V"
+   ],
+   "tags": [
+    "ふわふわ",
+    "B級",
+    "Brown"
+   ],
+   "key": "",
+   "fx": "",
+   "parallel": "",
+   "x": "2123974734450921927",
+   "img": "https://pbs.twimg.com/media/HXmOL7caUAANcMP?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-21T09:02:45.000Z",
+   "sort": 5017
   },
   {
    "p": "BP01",
@@ -3053,6 +3092,36 @@
    "sort": 5098
   },
   {
+   "id": "NJ-BP01-099",
+   "p": "BP01",
+   "no": "NJ-BP01-099",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "石神のぞみ",
+   "liver": "石神のぞみ",
+   "attr": "stella",
+   "lv": 5,
+   "pow": 12000,
+   "cols": [
+    "R",
+    "O",
+    "G",
+    "I",
+    "V"
+   ],
+   "tags": [
+    "特異性"
+   ],
+   "key": "",
+   "fx": "【登場時】相手の裏のカラーカード1枚を表にする。それがこのカードの持つ色なら、このターン中このカードのパワー+3000。",
+   "parallel": "",
+   "x": "2123249963773915477",
+   "img": "https://pbs.twimg.com/media/HXb6_GybAAAVway?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-21T09:02:45.000Z",
+   "sort": 5099
+  },
+  {
    "id": "NJ-BP01-101",
    "p": "BP01",
    "no": "NJ-BP01-101",
@@ -3077,6 +3146,32 @@
    "source": "x",
    "addedAt": "2026-11-18T12:06:22.000Z",
    "sort": 5101
+  },
+  {
+   "id": "NJ-BP01-102",
+   "p": "BP01",
+   "no": "NJ-BP01-102",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "倉持めると",
+   "liver": "倉持めると",
+   "attr": "stella",
+   "lv": 1,
+   "pow": 4000,
+   "cols": [
+    "R"
+   ],
+   "tags": [
+    "特異性"
+   ],
+   "key": "",
+   "fx": "【登場時】このカード以外の自分の#特異性ライバー1枚をログに置いてよい。そうしたら相手のLv1以下のライバー1枚を手札に戻す。",
+   "parallel": "",
+   "x": "2123257502905385053",
+   "img": "https://pbs.twimg.com/media/HXcCDnJaIAA3NJI?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-21T09:02:45.000Z",
+   "sort": 5102
   },
   {
    "id": "NJ-BP01-103",
@@ -3159,6 +3254,32 @@
    "source": "x",
    "addedAt": "2026-11-18T12:06:22.000Z",
    "sort": 5105
+  },
+  {
+   "id": "NJ-BP01-106",
+   "p": "BP01",
+   "no": "NJ-BP01-106",
+   "rar": "N",
+   "type": "ライバー",
+   "name": "獅子堂あかり",
+   "liver": "獅子堂あかり",
+   "attr": "stella",
+   "lv": 1,
+   "pow": 4000,
+   "cols": [
+    "Y"
+   ],
+   "tags": [
+    "特異性"
+   ],
+   "key": "",
+   "fx": "【相手のターン中】このカードがヨコなら、「獅子堂あかり」以外の自分の#特異性ライバー全員のパワー+1000。",
+   "parallel": "",
+   "x": "2123325454119846090",
+   "img": "https://pbs.twimg.com/media/HXc_vjtaYAAiwhv?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-21T09:02:45.000Z",
+   "sort": 5106
   },
   {
    "id": "NJ-BP01-107",
@@ -3301,6 +3422,38 @@
    "source": "x",
    "addedAt": "2026-11-05T11:32:01.000Z",
    "sort": 5123
+  },
+  {
+   "id": "NJ-BP01-126",
+   "p": "BP01",
+   "no": "NJ-BP01-126",
+   "rar": "IO★",
+   "type": "ライバー",
+   "name": "石神のぞみ",
+   "liver": "石神のぞみ",
+   "attr": "stella",
+   "lv": 4,
+   "pow": 10000,
+   "cols": [
+    "R",
+    "O",
+    "Y",
+    "G",
+    "B",
+    "I",
+    "V"
+   ],
+   "tags": [
+    "特異性"
+   ],
+   "key": "",
+   "fx": "",
+   "parallel": "",
+   "x": "2123332997688746239",
+   "img": "https://pbs.twimg.com/media/HXdGaN-acAEetYA?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-21T09:02:45.000Z",
+   "sort": 5126
   }
  ]
 }
