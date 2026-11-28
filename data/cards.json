@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-23T12:33:44.000Z",
- "lastPostId": "2124775001199091760",
+ "updatedAt": "2026-11-28T01:57:32.000Z",
+ "lastPostId": "2126239696334594427",
  "cards": [
   {
    "id": "NJ-SD01-001",
@@ -1570,27 +1570,6 @@
    "sort": 4016
   },
   {
-   "id": "BP01-pre01",
-   "liver": "イブラヒム",
-   "attr": "unk",
-   "cols": [],
-   "tags": [],
-   "key": "",
-   "fx": "",
-   "lv": null,
-   "pow": null,
-   "no": "",
-   "rar": "",
-   "x": "",
-   "parallel": "",
-   "p": "BP01",
-   "type": "チャンネル",
-   "name": "イブラヒム",
-   "sort": 5001,
-   "source": "official",
-   "img": ""
-  },
-  {
    "id": "NJ-BP01-001",
    "p": "BP01",
    "no": "NJ-BP01-001",
@@ -1836,27 +1815,6 @@
    "sort": 5008
   },
   {
-   "id": "BP01-pre09",
-   "liver": "レイン・パターソン",
-   "attr": "luna",
-   "cols": [],
-   "tags": [],
-   "key": "",
-   "fx": "",
-   "lv": null,
-   "pow": null,
-   "no": "",
-   "rar": "",
-   "x": "",
-   "parallel": "",
-   "p": "BP01",
-   "type": "ライバー",
-   "name": "レイン・パターソン",
-   "sort": 5009,
-   "source": "official",
-   "img": ""
-  },
-  {
    "id": "NJ-BP01-009",
    "p": "BP01",
    "no": "NJ-BP01-009",
@@ -1908,6 +1866,32 @@
    "img": ""
   },
   {
+   "addedAt": "2026-11-25T09:10:00.000Z",
+   "attr": "sol",
+   "cols": [
+    "O"
+   ],
+   "fx": "【登場時】デッキ上3枚を確認し、#お嬢様か#ふわふわのカードを1枚まで公開して手札へ。残りは好きな順でデッキの下へ。",
+   "img": "https://pbs.twimg.com/media/HX75Wz_a8AA8Xi8?format=jpg&name=large",
+   "key": "限定:「でびでび・でびる」",
+   "liver": "鷹宮リオン",
+   "lv": 1,
+   "name": "鷹宮リオン",
+   "no": "NJ-BP01-012",
+   "p": "BP01",
+   "parallel": "",
+   "pow": 2000,
+   "rar": "R",
+   "sort": 5012,
+   "source": "x",
+   "tags": [
+    "お嬢様"
+   ],
+   "type": "ライバー",
+   "x": "2125499785633538554",
+   "id": "NJ-BP01-012"
+  },
+  {
    "id": "NJ-BP01-013",
    "p": "BP01",
    "no": "NJ-BP01-013",
@@ -1933,6 +1917,34 @@
    "source": "x",
    "addedAt": "2026-11-21T09:02:45.000Z",
    "sort": 5013
+  },
+  {
+   "addedAt": "2026-11-25T09:10:00.000Z",
+   "attr": "sol",
+   "cols": [
+    "R",
+    "Y",
+    "G"
+   ],
+   "fx": "【登場時】この子以外の自分のライバー1枚をログに送ってもよい。送ったなら、相手のLv2以下でヨコ向きのライバー1枚もログに送る。",
+   "img": "https://pbs.twimg.com/media/HX60ciqbEAAbvXT?format=jpg&name=large",
+   "key": "",
+   "liver": "鷹宮リオン",
+   "lv": 3,
+   "name": "鷹宮リオン",
+   "no": "NJ-BP01-014",
+   "p": "BP01",
+   "parallel": "",
+   "pow": 8000,
+   "rar": "N",
+   "sort": 5014,
+   "source": "x",
+   "tags": [
+    "お嬢様"
+   ],
+   "type": "ライバー",
+   "x": "2125424277520613852",
+   "id": "NJ-BP01-014"
   },
   {
    "id": "BP01-pre15",
@@ -2038,6 +2050,36 @@
    "source": "x",
    "addedAt": "2026-11-21T09:02:45.000Z",
    "sort": 5017
+  },
+  {
+   "addedAt": "2026-11-25T09:10:00.000Z",
+   "attr": "sol",
+   "cols": [
+    "R",
+    "B",
+    "I"
+   ],
+   "fx": "",
+   "img": "https://pbs.twimg.com/media/HX67UVxaYAARHKA?format=jpg&name=large",
+   "key": "",
+   "liver": "でびでび・でびる",
+   "lv": 2,
+   "name": "でびでび・でびる",
+   "no": "NJ-BP01-018",
+   "p": "BP01",
+   "parallel": "",
+   "pow": 6000,
+   "rar": "N",
+   "sort": 5018,
+   "source": "x",
+   "tags": [
+    "ふわふわ",
+    "B級",
+    "Brown"
+   ],
+   "type": "ライバー",
+   "x": "2125431829578842530",
+   "id": "NJ-BP01-018"
   },
   {
    "id": "NJ-BP01-019",
@@ -2219,6 +2261,89 @@
    "sort": 5024
   },
   {
+   "addedAt": "2026-11-25T01:39:59.000Z",
+   "attr": "sol",
+   "cols": [
+    "G",
+    "B"
+   ],
+   "fx": "【ブロッカー】相手の攻撃かカラーコール時、このカードをヨコにして、それを止めてこのカードとのバトルに変える。",
+   "img": "https://pbs.twimg.com/media/HX1q4PKbwAAGGuB?format=jpg&name=large",
+   "key": "ブロッカー",
+   "liver": "レン ゾット",
+   "lv": 2,
+   "name": "レン ゾット",
+   "no": "NJ-BP01-025",
+   "p": "BP01",
+   "parallel": "",
+   "pow": 5000,
+   "rar": "N",
+   "sort": 5025,
+   "source": "x",
+   "tags": [
+    "異能学科"
+   ],
+   "type": "ライバー",
+   "x": "2125061895849910510",
+   "id": "NJ-BP01-025"
+  },
+  {
+   "addedAt": "2026-11-25T01:39:59.000Z",
+   "attr": "sol",
+   "cols": [
+    "O",
+    "G",
+    "B",
+    "I",
+    "V"
+   ],
+   "fx": "【登場時】自分のログからLv1以下の#ふわふわライバーを1枚、ヨコ向きで登場させられる。にじエリアのカラーカードが6枚以上なら最大3枚まで。",
+   "img": "https://pbs.twimg.com/media/HX1xrzlbQAAXLPO?format=jpg&name=large",
+   "key": "",
+   "liver": "レン ゾット",
+   "lv": 5,
+   "name": "レン ゾット",
+   "no": "NJ-BP01-026",
+   "p": "BP01",
+   "parallel": "",
+   "pow": 12000,
+   "rar": "R",
+   "sort": 5026,
+   "source": "x",
+   "tags": [
+    "異能学科"
+   ],
+   "type": "ライバー",
+   "x": "2125069439016325474",
+   "id": "NJ-BP01-026"
+  },
+  {
+   "addedAt": "2026-11-25T01:39:59.000Z",
+   "attr": "sol",
+   "cols": [],
+   "fx": "相手のヨコ向きライバー1枚を選ぶ。そのライバーは相手の次のスタートフェイズにタテに戻らない。",
+   "img": "https://pbs.twimg.com/media/HX2vmmubQAAI1_n?format=jpg&name=large",
+   "key": "",
+   "liver": "",
+   "lv": 1,
+   "name": "寝かしつけ",
+   "no": "NJ-BP01-027",
+   "p": "BP01",
+   "parallel": "",
+   "pow": null,
+   "rar": "N",
+   "sort": 5027,
+   "source": "x",
+   "tags": [
+    "ふわふわ",
+    "B級",
+    "Brown"
+   ],
+   "type": "イベント",
+   "x": "2125137394311835755",
+   "id": "NJ-BP01-027"
+  },
+  {
    "id": "NJ-BP01-028",
    "p": "BP01",
    "no": "NJ-BP01-028",
@@ -2244,6 +2369,32 @@
    "sort": 5028
   },
   {
+   "addedAt": "2026-11-25T09:10:00.000Z",
+   "attr": "sol",
+   "cols": [],
+   "fx": "【相手のターン中】自分の「でびでび・でびる」ライバーがバトルでログに送られたら、それをこのカードの下に重ねる。下に3枚以上たまったらこのカードをログに送り、ログからLv3以下の「でびでび・でびる」ライバー1枚をヨコ向きで登場させる。",
+   "img": "https://pbs.twimg.com/media/HX7_0-GbsAAgG_n?format=jpg&name=large",
+   "key": "",
+   "liver": "",
+   "lv": 0,
+   "name": "あくまのす",
+   "no": "NJ-BP01-029",
+   "p": "BP01",
+   "parallel": "",
+   "pow": null,
+   "rar": "N",
+   "sort": 5029,
+   "source": "x",
+   "tags": [
+    "ふわふわ",
+    "B級",
+    "Brown"
+   ],
+   "type": "ステージ",
+   "x": "2125507313482223707",
+   "id": "NJ-BP01-029"
+  },
+  {
    "id": "NJ-BP01-030",
    "p": "BP01",
    "no": "NJ-BP01-030",
@@ -2266,6 +2417,32 @@
    "source": "x",
    "addedAt": "2026-10-28T10:03:37.000Z",
    "sort": 5030
+  },
+  {
+   "addedAt": "2026-11-26T12:33:08.000Z",
+   "attr": "luna",
+   "cols": [],
+   "fx": "【起動メイン・ターン1回】手札の「熱き勝負師たち」ステージ1枚を登場させられる。【トリガー：B】相手のターン中に自分のカラーカードが表になった時、デッキ上3枚を公開して好きな順でデッキ下へ。3枚のLvが全て同じなら、相手のパワー8000以下のヨコのライバー1枚をログに送る。",
+   "img": "https://pbs.twimg.com/media/HX_-Ydva4AA6ecv?format=jpg&name=large",
+   "key": "",
+   "liver": "イブラヒム",
+   "lv": null,
+   "name": "イブラヒム",
+   "no": "NJ-BP01-031",
+   "p": "BP01",
+   "parallel": "CH★★（\"にじ\"色立体箔・別ビジュアル）版あり（ポスト 2125862173700448643）",
+   "pow": null,
+   "rar": "CH",
+   "sort": 5031,
+   "source": "x",
+   "tags": [
+    "勝負師",
+    "バンド",
+    "B級"
+   ],
+   "type": "チャンネル",
+   "x": "2125786674110345305",
+   "id": "NJ-BP01-031"
   },
   {
    "id": "NJ-BP01-032",
@@ -2381,6 +2558,36 @@
    "source": "x",
    "addedAt": "2026-11-06T10:36:22.000Z",
    "sort": 5035
+  },
+  {
+   "id": "NJ-BP01-038",
+   "p": "BP01",
+   "no": "NJ-BP01-038",
+   "rar": "R",
+   "type": "ライバー",
+   "name": "イブラヒム",
+   "liver": "イブラヒム",
+   "attr": "luna",
+   "lv": 3,
+   "pow": 8000,
+   "cols": [
+    "Y",
+    "G",
+    "B"
+   ],
+   "tags": [
+    "勝負師",
+    "バンド",
+    "B級"
+   ],
+   "key": "",
+   "fx": "【登場時】デッキ上3枚を公開して好きな順でデッキ下に戻す。3枚のLvが揃っていれば相手のカラーカード1枚を表向きにし、このターン中、自分の#勝負師ライバー1枚が全色を持つ。",
+   "parallel": "",
+   "x": "2126149066451288361",
+   "img": "https://pbs.twimg.com/media/HYFH_NobUAAlYxA?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-28T01:57:32.000Z",
+   "sort": 5038
   },
   {
    "id": "NJ-BP01-041",
@@ -2515,6 +2722,68 @@
    "sort": 5044
   },
   {
+   "id": "NJ-BP01-048",
+   "p": "BP01",
+   "no": "NJ-BP01-048",
+   "rar": "R",
+   "type": "ライバー",
+   "name": "舞元啓介",
+   "liver": "舞元啓介",
+   "attr": "luna",
+   "lv": 5,
+   "pow": 12000,
+   "cols": [
+    "O",
+    "Y",
+    "G",
+    "B",
+    "I"
+   ],
+   "tags": [
+    "勝負師",
+    "益荒男"
+   ],
+   "key": "限定:#勝負師",
+   "fx": "デッキにある間、このカードはLv3として扱われる。",
+   "parallel": "",
+   "x": "2126224559481438687",
+   "img": "https://pbs.twimg.com/media/HYGM6JdaIAAsQgv?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-28T01:57:32.000Z",
+   "sort": 5048
+  },
+  {
+   "id": "NJ-BP01-052",
+   "p": "BP01",
+   "no": "NJ-BP01-052",
+   "rar": "R",
+   "type": "ライバー",
+   "name": "レイン・パターソン",
+   "liver": "レイン・パターソン",
+   "attr": "luna",
+   "lv": 3,
+   "pow": 8000,
+   "cols": [
+    "R",
+    "O",
+    "V"
+   ],
+   "tags": [
+    "アイドルダンス",
+    "勝負師",
+    "楽園",
+    "ロックオン"
+   ],
+   "key": "",
+   "fx": "【起動メイン・ターン1回】デッキ上3枚を公開して好きな順でデッキ下に戻す。3枚のLvが揃っていれば、このターンは相手のライバー1枚がブロッカーを使えなくなる。",
+   "parallel": "",
+   "x": "2126232103461462197",
+   "img": "https://pbs.twimg.com/media/HYGToldbsAA1IjJ?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-28T01:57:32.000Z",
+   "sort": 5052
+  },
+  {
    "id": "NJ-BP01-053",
    "p": "BP01",
    "no": "NJ-BP01-053",
@@ -2623,6 +2892,33 @@
    "sort": 5057
   },
   {
+   "id": "NJ-BP01-058",
+   "p": "BP01",
+   "no": "NJ-BP01-058",
+   "rar": "N",
+   "type": "イベント",
+   "name": "早撃ち",
+   "liver": "",
+   "attr": "luna",
+   "lv": 3,
+   "pow": null,
+   "cols": [],
+   "tags": [
+    "アイドルダンス",
+    "勝負師",
+    "楽園",
+    "ロックオン"
+   ],
+   "key": "",
+   "fx": "相手のパワー6000以下のライバーを1枚ログへ送る。続けてデッキ上3枚を公開し好きな順でデッキ下に戻す。3枚のLvが揃っていれば、さらにパワー6000以下の相手ライバーをもう1枚ログへ送る。",
+   "parallel": "",
+   "x": "2126239696334594427",
+   "img": "https://pbs.twimg.com/media/HYGapDwa8AA1Rnx?format=jpg&name=large",
+   "source": "x",
+   "addedAt": "2026-11-28T01:57:32.000Z",
+   "sort": 5058
+  },
+  {
    "id": "NJ-BP01-059",
    "p": "BP01",
    "no": "NJ-BP01-059",
@@ -2649,6 +2945,30 @@
    "source": "x",
    "addedAt": "2026-11-05T11:32:01.000Z",
    "sort": 5059
+  },
+  {
+   "addedAt": "2026-11-26T12:33:08.000Z",
+   "attr": "luna",
+   "cols": [],
+   "fx": "【自分のメインフェイズ開始時】このカードをログに送ってよい。送ったらデッキ上3枚を公開して好きな順でデッキ下へ。3枚のLvが全て同じなら、手札かセットエリアからLv5の#勝負師ライバー1枚をヨコで登場させられる。",
+   "img": "https://pbs.twimg.com/media/HYBJjS5bAAAYPyk?format=jpg&name=large",
+   "key": "限定:#勝負師",
+   "liver": "",
+   "lv": 3,
+   "name": "熱き勝負師たち",
+   "no": "NJ-BP01-060",
+   "p": "BP01",
+   "parallel": "",
+   "pow": null,
+   "rar": "N",
+   "sort": 5060,
+   "source": "x",
+   "tags": [
+    "勝負師"
+   ],
+   "type": "ステージ",
+   "x": "2125869714513760583",
+   "id": "NJ-BP01-060"
   },
   {
    "id": "NJ-BP01-061",
